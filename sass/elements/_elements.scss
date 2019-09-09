@@ -74,7 +74,7 @@ figure{
 }
 
 ul,ol{
-    @include padding (0, 0, 0, 20px);
+    @include padding (0, 0, 0, 0);
 }
 
 ul{

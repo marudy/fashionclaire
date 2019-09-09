@@ -92,17 +92,17 @@ if (!function_exists('fashionclaire_get_default_theme_options')):
         $defaults['paging_background_color']        =  '#ffffff';
         $defaults['paging_border_color']            =  '#8e710b';
 
-        //Hover Paging
+        // Hover Paging
         $defaults['paging_hover_color']             =  '#ffffff';
         $defaults['paging_hover_background_color']  =  '#8e710b';
         $defaults['paging_hover_border_color']      =  '#8e710b';
         
-        //Hover Paging
+        // Hover Paging
         $defaults['paging_current_color']             =  '#ffffff';
         $defaults['paging_current_background_color']  =  '#8e710b';
         $defaults['paging_current_border_color']      =  '#8e710b';
         
-        // breadcrumb
+        // Breadcrumb
         $defaults['breadcrumb_background']          =  '#fafafa';
     
         // Author

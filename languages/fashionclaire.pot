@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2019-08-14 22:32+0300\n"
-"PO-Revision-Date: 2019-08-14 22:32+0300\n"
+"POT-Creation-Date: 2019-09-09 19:09+0300\n"
+"PO-Revision-Date: 2019-09-09 19:09+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -435,7 +435,7 @@ msgid "[...]"
 msgstr ""
 
 #: inc/customizer/default.php:29 template-parts/content-post.php:36
-#: template-parts/content-post.php:45
+#: template-parts/content-post.php:48
 msgid "Continue Reading"
 msgstr ""
 
@@ -843,224 +843,264 @@ msgstr ""
 msgid "A Widget for Social Icons "
 msgstr ""
 
-#: inc/widgets/widget-social-networks.php:206
-#: inc/widgets/widget-social-networks.php:207
+#: inc/widgets/widget-social-networks.php:236
+#: inc/widgets/widget-social-networks.php:237
 msgid "Title"
 msgstr ""
 
-#: inc/widgets/widget-social-networks.php:211
+#: inc/widgets/widget-social-networks.php:241
 msgid "Facebook"
 msgstr ""
 
-#: inc/widgets/widget-social-networks.php:212
+#: inc/widgets/widget-social-networks.php:242
 msgid "https://www.facebook.com/"
 msgstr ""
 
-#: inc/widgets/widget-social-networks.php:216
+#: inc/widgets/widget-social-networks.php:246
 msgid "Twitter"
 msgstr ""
 
-#: inc/widgets/widget-social-networks.php:217
+#: inc/widgets/widget-social-networks.php:247
 msgid "https://twitter.com/"
 msgstr ""
 
-#: inc/widgets/widget-social-networks.php:221
+#: inc/widgets/widget-social-networks.php:251
 msgid "Linkedin"
 msgstr ""
 
-#: inc/widgets/widget-social-networks.php:222
+#: inc/widgets/widget-social-networks.php:252
 msgid "https://linkedin.com/"
 msgstr ""
 
-#: inc/widgets/widget-social-networks.php:226
+#: inc/widgets/widget-social-networks.php:256
 msgid "G plus"
 msgstr ""
 
-#: inc/widgets/widget-social-networks.php:227
+#: inc/widgets/widget-social-networks.php:257
 msgid "https://plus.google.com/"
 msgstr ""
 
-#: inc/widgets/widget-social-networks.php:231
+#: inc/widgets/widget-social-networks.php:261
 msgid "Instagram"
 msgstr ""
 
-#: inc/widgets/widget-social-networks.php:232
+#: inc/widgets/widget-social-networks.php:262
 msgid "https://instagram.com/"
 msgstr ""
 
-#: inc/widgets/widget-social-networks.php:236
+#: inc/widgets/widget-social-networks.php:266
 msgid "Vine"
 msgstr ""
 
-#: inc/widgets/widget-social-networks.php:237
+#: inc/widgets/widget-social-networks.php:267
 msgid "https://vine.co/"
 msgstr ""
 
-#: inc/widgets/widget-social-networks.php:241
+#: inc/widgets/widget-social-networks.php:271
 msgid "Github"
 msgstr ""
 
-#: inc/widgets/widget-social-networks.php:242
+#: inc/widgets/widget-social-networks.php:272
 msgid "https://github.com/"
 msgstr ""
 
-#: inc/widgets/widget-social-networks.php:246
-msgid "Xing"
-msgstr ""
-
-#: inc/widgets/widget-social-networks.php:247
-msgid "https://xing.com/"
-msgstr ""
-
-#: inc/widgets/widget-social-networks.php:251
-msgid "Flickr"
-msgstr ""
-
-#: inc/widgets/widget-social-networks.php:252
-msgid "https://www.flickr.com/"
-msgstr ""
-
-#: inc/widgets/widget-social-networks.php:256
-msgid "500px"
-msgstr ""
-
-#: inc/widgets/widget-social-networks.php:257
-msgid "https://web.500px.com/"
-msgstr ""
-
-#: inc/widgets/widget-social-networks.php:261
-msgid "Pinterest"
-msgstr ""
-
-#: inc/widgets/widget-social-networks.php:262
-msgid "https://www.pinterest.com/"
-msgstr ""
-
-#: inc/widgets/widget-social-networks.php:266
-msgid "WordPress"
-msgstr ""
-
-#: inc/widgets/widget-social-networks.php:267
-msgid "https://wordpress.org/"
-msgstr ""
-
-#: inc/widgets/widget-social-networks.php:271
-msgid "YouTube"
-msgstr ""
-
-#: inc/widgets/widget-social-networks.php:272
-msgid "https://www.youtube.com/"
-msgstr ""
-
 #: inc/widgets/widget-social-networks.php:276
-msgid "Vimeo"
+msgid "Gitlab"
 msgstr ""
 
 #: inc/widgets/widget-social-networks.php:277
-msgid "https://vimeo.com/"
+msgid "https://gitlab.com/"
 msgstr ""
 
 #: inc/widgets/widget-social-networks.php:281
-msgid "Soundcloud"
+msgid "Stack Overflow"
 msgstr ""
 
 #: inc/widgets/widget-social-networks.php:282
-msgid "https://soundcloud.com/"
+msgid "https://stackoverflow.com/"
 msgstr ""
 
 #: inc/widgets/widget-social-networks.php:286
-msgid "Spotify"
+msgid "Xing"
 msgstr ""
 
 #: inc/widgets/widget-social-networks.php:287
-msgid "https://spotify.com"
+msgid "https://xing.com/"
 msgstr ""
 
 #: inc/widgets/widget-social-networks.php:291
-msgid "Telegram"
+msgid "Flickr"
 msgstr ""
 
 #: inc/widgets/widget-social-networks.php:292
-msgid "https://telegram.org/"
+msgid "https://www.flickr.com/"
 msgstr ""
 
 #: inc/widgets/widget-social-networks.php:296
-msgid "Foursquare"
+msgid "500px"
 msgstr ""
 
 #: inc/widgets/widget-social-networks.php:297
-msgid "https://foursquare.com/"
+msgid "https://web.500px.com/"
 msgstr ""
 
 #: inc/widgets/widget-social-networks.php:301
-msgid "Yelp"
+msgid "Pinterest"
 msgstr ""
 
 #: inc/widgets/widget-social-networks.php:302
-msgid "https://yelp.com/"
+msgid "https://www.pinterest.com/"
 msgstr ""
 
 #: inc/widgets/widget-social-networks.php:306
-msgid "Tumblr"
+msgid "WordPress"
 msgstr ""
 
 #: inc/widgets/widget-social-networks.php:307
-msgid "https://tumblr.com/"
+msgid "https://wordpress.org/"
 msgstr ""
 
 #: inc/widgets/widget-social-networks.php:311
-msgid "Blogger"
+msgid "YouTube"
 msgstr ""
 
 #: inc/widgets/widget-social-networks.php:312
-msgid "https://blogger.com/"
+msgid "https://www.youtube.com/"
 msgstr ""
 
 #: inc/widgets/widget-social-networks.php:316
-msgid "Behance"
+msgid "Vimeo"
 msgstr ""
 
 #: inc/widgets/widget-social-networks.php:317
-msgid "https://www.behance.net/"
+msgid "https://vimeo.com/"
 msgstr ""
 
 #: inc/widgets/widget-social-networks.php:321
-msgid "Dribbble"
+msgid "Soundcloud"
 msgstr ""
 
 #: inc/widgets/widget-social-networks.php:322
-msgid "https://dribbble.com/"
+msgid "https://soundcloud.com/"
 msgstr ""
 
 #: inc/widgets/widget-social-networks.php:326
-msgid "Deviantart"
+msgid "Lastfm"
 msgstr ""
 
 #: inc/widgets/widget-social-networks.php:327
-msgid "https://deviantart.com/"
+msgid "https://lastfm.com/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:331
+msgid "Spotify"
 msgstr ""
 
 #: inc/widgets/widget-social-networks.php:332
-msgid "Reddit"
+msgid "https://spotify.com"
 msgstr ""
 
-#: inc/widgets/widget-social-networks.php:333
-msgid "https://reddit.com/"
+#: inc/widgets/widget-social-networks.php:336
+msgid "Telegram"
 msgstr ""
 
 #: inc/widgets/widget-social-networks.php:337
-msgid "Hackernews"
+msgid "https://telegram.org/"
 msgstr ""
 
-#: inc/widgets/widget-social-networks.php:338
-msgid "https://news.ycombinator.com/"
+#: inc/widgets/widget-social-networks.php:341
+msgid "Foursquare"
 msgstr ""
 
 #: inc/widgets/widget-social-networks.php:342
+msgid "https://foursquare.com/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:346
+msgid "Yelp"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:347
+msgid "https://yelp.com/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:351
+msgid "Tripadvisor"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:352
+msgid "https://tripadvisor.com/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:356
+msgid "Tumblr"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:357
+msgid "https://tumblr.com/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:361
+msgid "Medium"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:362
+msgid "https://medium.com/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:366
+msgid "Slideshare"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:367
+msgid "https://slideshare.com/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:371
+msgid "Behance"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:372
+msgid "https://www.behance.net/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:376
+msgid "Dribbble"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:377
+msgid "https://dribbble.com/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:381
+msgid "Deviantart"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:382
+msgid "https://deviantart.com/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:387
+msgid "Reddit"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:388
+msgid "https://reddit.com/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:392
+msgid "Hackernews"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:393
+msgid "https://news.ycombinator.com/"
+msgstr ""
+
+#: inc/widgets/widget-social-networks.php:397
 msgid "Link"
 msgstr ""
 
-#: inc/widgets/widget-social-networks.php:343
+#: inc/widgets/widget-social-networks.php:398
 msgid "https://link.com/"
 msgstr ""
 

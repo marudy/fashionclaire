@@ -11,11 +11,10 @@
                             <?php esc_html_e('It looks like the page you are looking for is not exist. Perhaps try searching?', 'fashionclaire'); ?>
                          </p>
                             <?php get_search_form();?>
-                    </div>
-                    <div class="entry-404-section">
-                        <h2 class="text-center section-title">
-                            <?php esc_html_e("Maybe you are interested in", 'fashionclaire'); ?>
-                        </h2>
+                    
+                            <h2 class="section-title">
+                                <?php esc_html_e("Maybe you are interested in", 'fashionclaire'); ?>
+                            </h2>
                     </div>
             </div>
         </div>

@@ -12,7 +12,7 @@
                          </p>
                             <?php get_search_form();?>
                     
-                            <h2 class="section-title">
+                            <h2>
                                 <?php esc_html_e("Maybe you are interested in", 'fashionclaire'); ?>
                             </h2>
                     </div>

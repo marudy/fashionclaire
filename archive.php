@@ -13,8 +13,7 @@
                         <?php if (have_posts() ) : while ( have_posts() ) : the_post();
                             get_template_part('template-parts/content' , 'post', get_post_format() );
                         endwhile;
-                    endif;
-                    ?>
+                    endif;?>
                     <?php fashionclaire_paging_nav(); ?>
             </div>
                 <?php get_sidebar(); ?>

@@ -53,111 +53,111 @@ public function widget( $args, $instance ) {
 
         <ul class="social-networks">
             <?php if( ! empty( $facebook ) ) { ?>
-                <li><a href="<?php echo esc_url( $facebook ); ?>" target="_blank"><i class="icon-facebook2"></i></a> </li>
+                <li><a href="<?php echo esc_url( $facebook ); ?>" target="_blank"><span class="icon-facebook2" aria-hidden="true"></span><span class="screen-reader-text">Facebook</span></a> </li>
             <?php } ?>
 
             <?php if( ! empty( $twitter ) ) { ?>
-                <li><a href="<?php echo esc_url( $twitter ); ?>" target="_blank"><i class="icon-twitter"></i></a> </li>
+                <li><a href="<?php echo esc_url( $twitter ); ?>" target="_blank"><span class="icon-twitter"></span><span class="screen-reader-text">Twitter</span></a> </li>
             <?php } ?>
 
             <?php if( ! empty( $linkedin ) ) { ?>
-                <li><a href="<?php echo esc_url( $linkedin ); ?>" target="_blank"><i class="icon-linkedin"></i></a> </li>
+                <li><a href="<?php echo esc_url( $linkedin ); ?>" target="_blank"><span class="icon-linkedin"></span><span class="screen-reader-text">Linkedin</span></a> </li>
             <?php } ?>
 
             <?php if( ! empty( $g_plus ) ) { ?>
-                <li><a href="<?php echo esc_url( $g_plus ); ?>" target="_blank"><i class="icon-google-plus2"></i></a> </li>
+                <li><a href="<?php echo esc_url( $g_plus ); ?>" target="_blank"><span class="icon-google-plus2"></span><span class="screen-reader-text">Google Plus</span></a> </li>
             <?php } ?>
 
             <?php if( ! empty( $instagram ) ) { ?>
-                <li><a href="<?php echo esc_url( $instagram ); ?>" target="_blank"><i class="icon-instagram"></i></a> </li>
+                <li><a href="<?php echo esc_url( $instagram ); ?>" target="_blank"><span class="icon-instagram"></span><span class="screen-reader-text">Instagram</span></a> </li>
             <?php } ?>
 
             <?php if( ! empty( $vine ) ) { ?>
-                <li><a href="<?php echo esc_url( $vine ); ?>" target="_blank"><i class="icon-vine"></i></a> </li>
+                <li><a href="<?php echo esc_url( $vine ); ?>" target="_blank"><span class="icon-vine"></span><span class="screen-reader-text">Vine</span></a> </li>
             <?php } ?>
 
             <?php if( ! empty( $github ) ) { ?>
-                <li><a href="<?php echo esc_url( $github ); ?>" target="_blank"><i class="icon-github"></i></a> </li>
+                <li><a href="<?php echo esc_url( $github ); ?>" target="_blank"><span class="icon-github"></span><span class="screen-reader-text">Github</span></a> </li>
             <?php } ?>
 
             <?php if( ! empty( $xing ) ) { ?>
-                <li><a href="<?php echo esc_url( $xing ); ?>" target="_blank"><i class="icon-xing"></i></a> </li>
+                <li><a href="<?php echo esc_url( $xing ); ?>" target="_blank"><span class="icon-xing"></span><span class="screen-reader-text">Xing</span></a> </li>
             <?php } ?>
 
             <?php if( ! empty( $flickr ) ) { ?>
-                <li><a href="<?php echo esc_url( $flickr ); ?>" target="_blank"><i class="icon-flickr3"></i></a> </li>
+                <li><a href="<?php echo esc_url( $flickr ); ?>" target="_blank"><span class="icon-flickr3"></span></span><span class="screen-reader-text">Flickr</span></a> </li>
             <?php } ?>
 
             <?php if( ! empty( $fivehundredpx ) ) { ?>
-                <li><a href="<?php echo esc_url( $fivehundredpx ); ?>" target="_blank"><i class="icon-500px"></i></a> </li>
+                <li><a href="<?php echo esc_url( $fivehundredpx ); ?>" target="_blank"><span class="icon-500px"></span><span class="screen-reader-text">500px</span></a> </li>
             <?php } ?>
 
             <?php if( ! empty( $pinterest ) ) { ?>
-                <li><a href="<?php echo esc_url( $pinterest ); ?>" target="_blank"><i class="icon-pinterest"></i></a> </li>
+                <li><a href="<?php echo esc_url( $pinterest ); ?>" target="_blank"><span class="icon-pinterest"></span><span class="screen-reader-text">Pinterest</span></a> </li>
             <?php } ?>
 
             <?php if( ! empty( $WordPress ) ) { ?>
-                <li><a href="<?php echo esc_url( $WordPress ); ?>" target="_blank"><i class="icon-wordpress"></i></a> </li>
+                <li><a href="<?php echo esc_url( $WordPress ); ?>" target="_blank"><span class="icon-wordpress"></span><span class="screen-reader-text">WordPress</span></a> </li>
             <?php } ?>
 
             <?php if( ! empty( $youtube ) ) { ?>
-                <li><a href="<?php echo esc_url( $youtube ); ?>" target="_blank"><i class="icon-youtube"></i></a> </li>
+                <li><a href="<?php echo esc_url( $youtube ); ?>" target="_blank"><span class="icon-youtube"></span><span class="screen-reader-text">Youtube</span></a> </li>
             <?php } ?>
 
             <?php if( ! empty( $vimeo ) ) { ?>
-                <li><a href="<?php echo esc_url( $vimeo ); ?>" target="_blank"><i class="icon-vimeo2"></i></a> </li>
+                <li><a href="<?php echo esc_url( $vimeo ); ?>" target="_blank"><span class="icon-vimeo2"></span><span class="screen-reader-text">Vimeo</span></a> </li>
             <?php } ?>
 
             <?php if( ! empty( $soundcloud ) ) { ?>
-                <li><a href="<?php echo esc_url( $soundcloud ); ?>" target="_blank"><i class="icon-soundcloud2"></i></a> </li>
+                <li><a href="<?php echo esc_url( $soundcloud ); ?>" target="_blank"><span class="icon-soundcloud2"></span><span class="screen-reader-text">SoundCloud</span></a> </li>
             <?php } ?>
 
             <?php if( ! empty( $spotify ) ) { ?>
-                <li><a href="<?php echo esc_url( $spotify ); ?>" target="_blank"><i class="icon-spotify"></i></a> </li>
+                <li><a href="<?php echo esc_url( $spotify ); ?>" target="_blank"><span class="icon-spotify"></span><span class="screen-reader-text">Spotify</span></a> </li>
             <?php } ?>
 
             <?php if( ! empty( $telegram ) ) { ?>
-                <li><a href="<?php echo esc_url( $telegram ); ?>" target="_blank"><i class="icon-telegram"></i></a> </li>
+                <li><a href="<?php echo esc_url( $telegram ); ?>" target="_blank"><span class="icon-telegram"></span><span class="screen-reader-text">Telegram</span></a> </li>
             <?php } ?>
 
             <?php if( ! empty( $foursquare ) ) { ?>
-                <li><a href="<?php echo esc_url( $foursquare ); ?>" target="_blank"><i class="icon-foursquare"></i></a> </li>
+                <li><a href="<?php echo esc_url( $foursquare ); ?>" target="_blank"><span class="icon-foursquare"></span><span class="screen-reader-text">Foursquare</span></a> </li>
             <?php } ?>
 
             <?php if( ! empty( $yelp ) ) { ?>
-                <li><a href="<?php echo esc_url( $yelp ); ?>" target="_blank"><i class="icon-yelp"></i></a> </li>
+                <li><a href="<?php echo esc_url( $yelp ); ?>" target="_blank"><span class="icon-yelp"><span class="screen-reader-text">Yelp</span></a> </li>
             <?php } ?>
 
             <?php if( ! empty( $tumblr ) ) { ?>
-                <li><a href="<?php echo esc_url( $tumblr ); ?>" target="_blank"><i class="icon-tumblr2"></i></a> </li>
+                <li><a href="<?php echo esc_url( $tumblr ); ?>" target="_blank"><span class="icon-tumblr2"><span class="screen-reader-text">Tumblr</span></a> </li>
             <?php } ?>
 
             <?php if( ! empty( $blogger ) ) { ?>
-                <li><a href="<?php echo esc_url( $blogger ); ?>" target="_blank"><i class="icon-blogger2"></i></a> </li>
+                <li><a href="<?php echo esc_url( $blogger ); ?>" target="_blank"><span class="icon-blogger2"><span class="screen-reader-text">Blogger</span></a> </li>
             <?php } ?>
 
             <?php if( ! empty( $behance ) ) { ?>
-                <li><a href="<?php echo esc_url( $behance ); ?>" target="_blank"><i class="icon-behance2"></i></a> </li>
+                <li><a href="<?php echo esc_url( $behance ); ?>" target="_blank"><span class="icon-behance2"><span class="screen-reader-text">Behance</span></a> </li>
             <?php } ?>
 
             <?php if( ! empty( $dribbble ) ) { ?>
-                <li><a href="<?php echo esc_url( $dribbble ); ?>" target="_blank"><i class="icon-dribbble"></i></a> </li>
+                <li><a href="<?php echo esc_url( $dribbble ); ?>" target="_blank"><span class="icon-dribbble"><span class="screen-reader-text">Dribbble</span></a> </li>
             <?php } ?>
 
             <?php if( ! empty( $deviantart ) ) { ?>
-                <li><a href="<?php echo esc_url( $deviantart ); ?>" target="_blank"><i class="icon-deviantart"></i></a> </li>
+                <li><a href="<?php echo esc_url( $deviantart ); ?>" target="_blank"><span class="icon-deviantart"><span class="screen-reader-text">Deviantart</span></a> </li>
             <?php } ?>
 
             <?php if( ! empty( $reddit ) ) { ?>
-                <li><a href="<?php echo esc_url( $reddit ); ?>" target="_blank"><i class="icon-reddit"></i></a> </li>
+                <li><a href="<?php echo esc_url( $reddit ); ?>" target="_blank"><span class="icon-reddit"><span class="screen-reader-text">Reddit</span></a> </li>
             <?php } ?>
 
             <?php if( ! empty( $hackernews ) ) { ?>
-                <li><a href="<?php echo esc_url( $hackernews ); ?>" target="_blank"><i class="icon-hackernews"></i></a> </li>
+                <li><a href="<?php echo esc_url( $hackernews ); ?>" target="_blank"><span class="icon-hackernews"><span class="screen-reader-text">Hackernews</span></a> </li>
             <?php } ?>
 
             <?php if( ! empty( $link ) ) { ?>
-                <li><a href="<?php echo esc_url( $link ); ?>" target="_blank"><i class="icon-link"></i></a> </li>
+                <li><a href="<?php echo esc_url( $link ); ?>" target="_blank"><span class="icon-link"><span class="screen-reader-text">Link</span></a> </li>
             <?php } ?>
 
             <div class="clearfix"></div>

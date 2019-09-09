@@ -3,7 +3,7 @@
         <?php if ( has_post_thumbnail() ) : ?>
             <figure class="entry-thumb">
                 <a href="<?php the_permalink(); ?>"tabindex="-1" aria-hidden="true">
-                    <?php the_post_thumbnail( 'fashionclaire-large', [ 'alt' => get_the_title() ] ); ?>
+                <?php the_post_thumbnail( 'fashionclaire-large', [ 'alt' => get_the_title() ] ); ?>
                 </a>
             </figure>
         <?php endif; ?>
@@ -43,7 +43,9 @@
                     <?php the_excerpt(); ?>
                         <?php if((fashionclaire_get_option('show_continue_reading_text'))==1) :  ?>
                         <?php $continuereading = fashionclaire_get_option('continue_reading_text', __('Continue Reading', 'fashionclaire')); ?>
-                             <a href="<?php the_permalink(); ?>" class="read-more"><?php echo esc_html( $continuereading, 'fashionclaire'); ?></a>
+                             <a href="<?php the_permalink(); ?>" class="read-more">
+                             <span class="screen-reader-text"> <?php the_title(); ?></span>
+                             <?php echo esc_html( $continuereading, 'fashionclaire'); ?></a>
                         <?php endif;?>
                 <?php endif;?>   
         </div>

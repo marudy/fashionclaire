@@ -27,7 +27,6 @@
             'posts_per_page' => 3,
             'post_status'    =>  'publish',
         )); ?>
-        
         <?php if ($nofound->have_posts()) : ?>
             <div class="row">
                 <?php while ($nofound->have_posts()) : $nofound->the_post(); ?>

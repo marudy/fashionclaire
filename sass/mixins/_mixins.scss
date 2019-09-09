@@ -50,6 +50,7 @@
     border-width:1px;
     border-style:solid;
     border-color: $secondary-color;
+    outline:none;
 }
 
 @mixin title-upperline {

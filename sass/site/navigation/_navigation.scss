@@ -1,4 +1,3 @@
-
 /* -----------------------------------------
 Navigation
 ----------------------------------------- */
@@ -37,7 +36,6 @@ Navigation
 /* Background color change on Hover */
 /* Set menu item's width to 100% */
 /* Styling the toggle buttons */
-
 .menu-toggle {
   background-color: $grey-100;
   @include padding (15px, 12px, 15px, 12px);
@@ -100,7 +98,6 @@ Navigation
 }
 
 /* Hide Submenus by default using absolute positioning instead of display:none;. */
-
 .site-navigation .menu {
   position: absolute;
   top: 100%;
@@ -129,7 +126,6 @@ Navigation
 }
 
 /* Display the menu when clicked on Menu Toggle */
-
 .toggled .menu {
   display: block;
   position: relative;
@@ -168,7 +164,6 @@ Navigation
     border-bottom:1px solid $grey-500;
   }
   li {
-    
   }
 }
 
@@ -257,7 +252,6 @@ Navigation
     font-family: 'icomoon';
     content: "\f107";
     vertical-align: bottom;
-    //margin-left: 15px;
     @include margin (null, null, null, 10px);
   }
   .menu-item-has-children {

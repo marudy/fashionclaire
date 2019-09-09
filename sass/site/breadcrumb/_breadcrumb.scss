@@ -1,13 +1,14 @@
 /* breadcrumb
 =================================== */
 .breadcrumb{
+  
     li.trail-item{
         list-style:none;
         a{
-            font-weight: $weight-700;
+           
             color:$secondary-color;
             float:left;
-            @include padding (null, 20px, null, null);
+            @include padding (null, 20px, null, 5px);
             position: relative;
             &:after{
                 color:$body-color;
@@ -24,8 +25,8 @@
             }
         }
     }
-
+text-transform: uppercase;
     background-color:$grey-100;
-    text-transform: uppercase;
-    @include padding (2px,3px,2px,3px);
+    font-weight: $weight-700;
+    @include padding (5px,5px,5px,5px);
 }

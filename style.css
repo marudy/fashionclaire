@@ -1713,9 +1713,8 @@ Navigation
   vertical-align: text-bottom;
 }
 .menu-toggle .dashicons:before {
-  content: "\e903";
+  content: "\f0c9";
   font-family: 'icomoon';
-  font-size: 16px;
 }
 
 .toggled .menu-toggle {
@@ -1724,8 +1723,7 @@ Navigation
 .toggled .menu-toggle .dashicons:before {
   font-family: 'icomoon';
   color: #333333;
-  content: "\ea0f";
-  font-size: 16px;
+  content: "\f00d";
 }
 
 .dropdown-toggle {
@@ -1751,13 +1749,13 @@ Navigation
 }
 .dropdown-toggle .dashicons:before {
   font-family: 'icomoon';
-  content: "\e904";
+  content: "\f107";
   color: #333333;
 }
 
 .toggled-on > .dropdown-toggle .dashicons:before {
   font-family: 'icomoon';
-  content: "\e906";
+  content: "\f106";
   color: #333333;
 }
 
@@ -1942,8 +1940,9 @@ Navigation
 .breadcrumb li.trail-item a:after {
   color: #333333;
   position: absolute;
-  content: "\e902";
-  top: -8px;
+  content: "\f105";
+  top: -6px;
+  right: 5px;
   display: inline-block;
   font-family: "icomoon";
   font-size: 24px;

@@ -11,7 +11,6 @@
 span {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -35,6 +34,7 @@ font-size:19px;
 }
 .icon-comment:before {
   content: "\f075";
+  font-size:14px;
 }
 .icon-twitter1:before {
   content: "\f099";
@@ -163,7 +163,6 @@ font-size:19px;
   content: "\f2c6";
 }
 
-
-.icon-bubble{
-  left:5px;
+.icon-comment{
+  left:15px;
 }

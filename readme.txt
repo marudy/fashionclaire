@@ -3,7 +3,7 @@
 Contributors : vbaimas
 Tags: one-column, right-sidebar, grid-layout, custom-background, custom-colors, custom-menu, custom-logo, featured-images, footer-widgets, theme-options, threaded-comments, translation-ready, blog, fashion
 Requires at least: 4.7
-Tested up to: WordPress 5.2.2
+Tested up to: WordPress 5.2.3
 Requires PHP: 5.6
 Stable tag: 1.1.5
 License: GPLv2 or later

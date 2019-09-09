@@ -27,4 +27,4 @@
                         comments_template(); ?>  
             </div> 
         </article>
-    <?php endwhile; ?>
+<?php endwhile; ?>

@@ -1,0 +1,21 @@
+/* Author
+=================================== */
+.author-info{
+    @include margin(5px, null, 35px, null);
+    @include padding(15px,15px,15px,15px);
+    background-color: $grey-100;
+
+    .author-content p{
+        @include margin (null, null, 5px, null);
+    }
+
+    a.more-posts{
+        text-decoration: underline;
+    }
+    .author-social {
+        @include margin (10px, null, null, null);
+        a{
+            @include margin (null, 8px, null, null);
+        }
+    }
+}

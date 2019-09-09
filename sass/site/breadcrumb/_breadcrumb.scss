@@ -1,0 +1,30 @@
+/* breadcrumb
+=================================== */
+.breadcrumb{
+    li.trail-item{
+        list-style:none;
+        a{
+            font-weight: $weight-700;
+            color:$secondary-color;
+            float:left;
+            @include padding (null, 20px, null, null);
+            position: relative;
+            &:after{
+                color:$body-color;
+                position: absolute;
+                content: "\e902";
+                top:-8px;
+                display: inline-block;
+                font-family: "icomoon";
+                font-size: 24px;
+                text-rendering: auto;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+        }
+    }
+
+    background-color:$grey-100;
+    text-transform: uppercase;
+    @include padding (2px,3px,2px,3px);
+}

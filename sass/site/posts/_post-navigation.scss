@@ -1,0 +1,58 @@
+/* Post Nagination
+=================================== */
+.page,
+.single-post{
+.post-navigation {
+    @include padding(null, null, 30px, null);
+    width:100%;
+    .nav-previous, .nav-next {
+        position: relative;
+      }
+    .nav-links a:hover{
+        text-decoration: underline;
+    }
+
+    .nav-previous {
+        width: 50%;
+    float: left;
+        text-align: left;
+    }
+    
+    .nav-next {
+        width: 50%;
+    float: right;
+    text-align: right;
+    }
+
+    .nav-previous a{
+      @include padding (null, null, null, 40px);
+    }
+
+    .nav-next a{
+      @include padding (null, 40px, null, null);
+    }
+
+    .nav-previous a, .nav-next a {
+        position: relative;
+      }
+      .nav-previous a:before {
+        position: absolute;
+        display: inline-block;
+        content: "\e900";
+        left:5px;
+        font-size:24px;
+        top:-5px;
+        font-family: "icomoon";
+      }
+      .nav-next a:after {
+        position: absolute;
+        display: inline-block;
+        position: absolute;
+        content: "\e901";
+        font-size:24px;
+        right:5px;
+        top:-5px;
+        font-family: "icomoon";
+      }  
+}
+}

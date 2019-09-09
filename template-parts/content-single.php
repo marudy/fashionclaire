@@ -27,7 +27,10 @@
                 <?php endif;?> 
 
                 <?php if((fashionclaire_get_option('show_single_comments'))==1) :  ?>
-                    <i class="fa fa-comment" aria-hidden="true"></i> <a href="<?php echo esc_url( get_comments_link() ); ?>" class="no-entry-comments"><?php comments_number(); ?> </a>
+                    <span class="icon-comment" aria-hidden="true"></span>
+                        <a href="<?php echo esc_url( get_comments_link() ); ?>" class="no-entry-comments">
+                    <?php comments_number(); ?> 
+                </a>
                  <?php endif;?>   
             </div>
 

@@ -1,8 +1,9 @@
 <?php get_header(); ?>
+<article class="entry entry-404">
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-                <article class="entry entry-404">
+       
                     <div class="text-center">
                          <h1 class="entry-title">
                             <?php esc_html_e('Page not Found', 'fashionclaire'); ?>

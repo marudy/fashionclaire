@@ -1,8 +1,6 @@
 /* Widgets Section
 =================================== */
-
 h3.widget-title{
-    display:inline-block;
     @include title-upperline ();
     }
 
@@ -35,7 +33,6 @@ h3.widget-title{
 
   /* Social Media
 =================================== */
-
 ul.social-networks{
     li {
         list-style-type:none;
@@ -48,7 +45,6 @@ ul.social-networks{
 
 /* Search Option
 =================================== */
-
 article.entry{
     &.entry-404{
         form.search-form {
@@ -58,7 +54,7 @@ article.entry{
                 @include margin (null, null, 85px, null);
             }
         input[type="submit"].search-submit{
-            position: absolute;;
+            position: absolute;
         }
         }
     }

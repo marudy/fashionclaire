@@ -1894,13 +1894,13 @@ Navigation
   */
   .menu-item-has-children > a:after, .page_item_has_children > a:after {
     font-family: 'icomoon';
-    content: "\e904";
+    content: "\f107";
     vertical-align: bottom;
-    margin-left: 0.25em;
+    margin-left: 10px;
   }
 
   .menu-item-has-children .menu-item-has-children > a:after, .menu-item-has-children .page_item_has_children > a:after {
-    content: "\e904";
+    content: "\f107";
     font-family: 'icomoon';
     position: absolute;
     right: 0;
@@ -1909,7 +1909,7 @@ Navigation
   }
 
   .page_item_has_children .menu-item-has-children > a:after, .page_item_has_children .page_item_has_children > a:after {
-    content: "\e904";
+    content: "\f107";
     font-family: 'icomoon';
     position: absolute;
     right: 0;

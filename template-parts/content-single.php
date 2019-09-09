@@ -8,7 +8,7 @@
         <article id="entry-<?php the_ID(); ?>" <?php post_class( 'entry' ); ?>>
             <?php if ( has_post_thumbnail() ) : ?>
                 <figure class="entry-thumb">
-                    <?php the_post_thumbnail('fashionclaire-large'); ?>
+                    <?php the_post_thumbnail( 'fashionclaire-large', [ 'alt' => get_the_title() ] ); ?>
                 </figure>
             <?php endif;?>
 

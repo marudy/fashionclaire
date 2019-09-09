@@ -2,8 +2,8 @@
     <?php if((fashionclaire_get_option('show_archive_featured_image'))==1) :  ?>
         <?php if ( has_post_thumbnail() ) : ?>
             <figure class="entry-thumb">
-                <a href="<?php the_permalink(); ?>">
-                    <?php the_post_thumbnail( 'fashionclaire-large' ); ?>
+                <a href="<?php the_permalink(); ?>"tabindex="-1" aria-hidden="true">
+                    <?php the_post_thumbnail( 'fashionclaire-large', [ 'alt' => get_the_title() ] ); ?>
                 </a>
             </figure>
         <?php endif; ?>

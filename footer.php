@@ -1,5 +1,5 @@
 </main>
-    <footer id="colophon" class="site-footer"> 
+    <footer id="colophon" class="site-footer" role="contentinfo"> 
         <div class="container">
             <div class="row">
                 <?php

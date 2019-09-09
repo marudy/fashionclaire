@@ -189,7 +189,7 @@ class fashionclaire_Breadcrumb_Trail {
 				preg_match( '/(<a.*?>)(.*?)(<\/a>)/i', $item, $matches );
 
 				// Wrap the item text with appropriate itemprop.
-				$item = !empty( $matches ) ? sprintf( '%s<span>%s</span>%s', $matches[1], $matches[2], $matches[3] ) : sprintf( '<span>%s</span>', $item );
+				$item = !empty( $matches ) ? sprintf( '%s%s%s', $matches[1], $matches[2], $matches[3] ) : sprintf( '%s', $item );
 
 				// Add list item classes.
 				$item_class = 'trail-item';

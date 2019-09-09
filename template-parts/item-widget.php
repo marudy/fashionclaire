@@ -3,8 +3,8 @@
         <div class="col-sm-5 col-xs-12">
             <?php if (has_post_thumbnail() ):?>
                 <figure class="entry-thumb-widget">
-                    <a href="<?php the_permalink(); ?>">
-                        <?php the_post_thumbnail('fashionclaire-xsmall'); ?>
+                    <a href="<?php the_permalink(); ?>"tabindex="-1" aria-hidden="true">
+                        <?php the_post_thumbnail( 'fashionclaire-xsmall', [ 'alt' => get_the_title() ] ); ?>
                     </a>
                 </figure>
             <?php endif;?>

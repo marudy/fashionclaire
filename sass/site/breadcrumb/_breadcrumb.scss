@@ -12,8 +12,9 @@
             &:after{
                 color:$body-color;
                 position: absolute;
-                content: "\e902";
-                top:-8px;
+                content: "\f105";
+                top:-6px;
+                right:5px;
                 display: inline-block;
                 font-family: "icomoon";
                 font-size: 24px;

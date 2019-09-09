@@ -8,7 +8,7 @@
             <?php if((fashionclaire_get_option('show_page_featured_image'))==1) :  ?>
                 <?php if ( has_post_thumbnail() ) : ?>
                     <figure class="entry-thumb">
-                        <?php the_post_thumbnail(); ?>
+                        <?php the_post_thumbnail([ 'alt' => get_the_title() ] ); ?>
                     </figure>
                 <?php endif;?>
             <?php endif;?>

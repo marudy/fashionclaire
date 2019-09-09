@@ -1,12 +1,11 @@
 @font-face {
     font-family: 'icomoon';
-    src:  url('../fonts/icomoon.eot?ou3cpo');
-    src:  url('../fonts/icomoon.eot?ou3cpo#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?ou3cpo') format('truetype'),
-    url('../fonts/icomoon.woff?ou3cpo') format('woff'),
-    url('../fonts/icomoon.svg?ou3cpo#icomoon') format('svg');
+    src:  url('../fonts/icomoon.eot?fhu8x8');
+    src:  url('../fonts/icomoon.eot?fhu8x8#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?fhu8x8') format('truetype'),
+    url('../fonts/icomoon.woff?fhu8x8') format('woff'),
+    url('../fonts/icomoon.svg?fhu8x8#icomoon') format('svg');
 }
-
 
 span {
   /* use !important to prevent issues with browser extensions that change fonts */
@@ -89,6 +88,13 @@ font-size:19px;
 }
 .icon-tumblr:before {
   content: "\f173";
+}
+
+.icon-long-arrow-left:before {
+  content: "\f177";
+}
+.icon-long-arrow-right:before {
+  content: "\f178";
 }
 .icon-dribbble1:before {
   content: "\f17d";

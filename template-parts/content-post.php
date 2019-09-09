@@ -34,7 +34,10 @@
                     <?php the_content(); ?>
                 <?php if((fashionclaire_get_option('show_continue_reading_text'))==1) :  ?>
                     <?php $continuereading = fashionclaire_get_option('continue_reading_text', __('Continue Reading', 'fashionclaire')); ?>
-                    <a href="<?php the_permalink(); ?>" class="read-more"><?php echo esc_html( $continuereading, 'fashionclaire'); ?></a>
+                    <a href="<?php the_permalink(); ?>" class="read-more">
+                        <span class="screen-reader-text"> <?php the_title(); ?></span>
+                        <?php echo esc_html( $continuereading, 'fashionclaire'); ?>
+                    </a>
                 <?php endif;?>
             <?php endif;?>   
 
@@ -44,8 +47,9 @@
                         <?php if((fashionclaire_get_option('show_continue_reading_text'))==1) :  ?>
                         <?php $continuereading = fashionclaire_get_option('continue_reading_text', __('Continue Reading', 'fashionclaire')); ?>
                              <a href="<?php the_permalink(); ?>" class="read-more">
-                             <span class="screen-reader-text"> <?php the_title(); ?></span>
-                             <?php echo esc_html( $continuereading, 'fashionclaire'); ?></a>
+                                <span class="screen-reader-text"> <?php the_title(); ?></span>
+                                <?php echo esc_html( $continuereading, 'fashionclaire'); ?>
+                            </a>
                         <?php endif;?>
                 <?php endif;?>   
         </div>

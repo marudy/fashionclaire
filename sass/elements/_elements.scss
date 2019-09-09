@@ -74,7 +74,7 @@ figure{
 }
 
 ul,ol{
-    @include padding (0,0,0,20px)
+    @include padding (0, 0, 0, 20px);
 }
 
 ul{
@@ -90,7 +90,6 @@ dt{
 }
 
 dd{
-
     @include margin (0,0, 0, 15px);
 }
 
@@ -109,7 +108,7 @@ table{
      }
      th,
      td{
-         border-bottom:1px solid rgba(0,0,0,0.1);
+         border-bottom:1px solid rgba(0, 0, 0, 0.1);
      }
 
      caption,
@@ -132,4 +131,3 @@ table{
          border-width:0 1px 1px 0;
      }
  }
-

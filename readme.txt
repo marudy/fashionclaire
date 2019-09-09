@@ -110,6 +110,7 @@ If you need any help, or assistance I'd be happy to help. My email address: hell
 = 1.2.5 =
  * Replace and add social icons. 
  * Improve the accessibility. 
+ * Add page templates
 
 == Upgrade Notice ==
 

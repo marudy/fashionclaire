@@ -4,7 +4,7 @@ Theme URI: http://www.vbaimas.com/products/fashionclaire/
 Author: vbaimas
 Author URI: https://vbaimas.com
 Description: fashionclaire is a Free WordPress Fashion Blog Theme. It is a simple, easy to use, user-friendly WordPress theme and is suitable for a fashion magazine, blogging, travel, lifestyle and any other blogs. This theme have a lot of customization options that are available WordPress Theme Customizer, included google fonts, color options. Fashioclaire comes with added custom widgets for social profiles, recent posts, popular posts, sidebar options, copyright option etc. For more information, check out Theme Instructions at http://www.vbaimas.com/products/fashionclaire/ and Demo at http://themes.vbaimas.com/fashionclaire/
-Version: 1.2.4
+Version: 1.2.5
 Tags: one-column, right-sidebar, custom-menu, custom-logo, custom-colors, featured-images, footer-widgets, full-width-template, theme-options, translation-ready, blog
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -155,25 +155,15 @@ template {
   display: none;
 }
 
-.entry h1.entry-title a:active, .entry h1.entry-title a:hover,
-.entry .entry-meta a:active,
-.entry .entry-meta a:hover,
-a:active,
-a:hover {
+a:active, a:hover {
   outline: 0;
 }
-.entry h1.entry-title a:active,
-.entry .entry-meta a:active,
 a:active {
   color: midnightblue;
 }
-.entry h1.entry-title a:visited,
-.entry .entry-meta a:visited,
 a:visited {
   color: purple;
 }
-.entry h1.entry-title a:focus,
-.entry .entry-meta a:focus,
 a:focus {
   outline: thin dotted;
 }
@@ -1280,7 +1270,7 @@ td, th {
     align-items: flex-end;
   }
 }
-/* 3.5 embed
+/* embed
 =================================== */
 embed, iframe, object, video, audio {
   margin-top: 0;
@@ -1628,9 +1618,9 @@ input[type="submit"]:hover {
 }
 
 /* -----------------------------------------
-4. Components
+Components
 ----------------------------------------- */
-/* 4.1 header
+/* header
 =================================== */
 #masthead.site-header {
   margin-bottom: 25px;
@@ -1667,6 +1657,9 @@ input[type="submit"]:hover {
   display: block;
 }
 
+/* -----------------------------------------
+Navigation
+----------------------------------------- */
 .site-navigation {
   display: block;
   margin-top: 15px;
@@ -1969,9 +1962,6 @@ input[type="submit"]:hover {
 .entry h1.entry-title a {
   color: #151515;
   font-weight: 700;
-}
-.entry h1.entry-title a:hover {
-  color: #8e710b;
 }
 .entry .entry-time,
 .entry .entry-categories a {

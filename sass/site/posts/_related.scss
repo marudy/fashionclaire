@@ -12,7 +12,13 @@
     font-size:14px;
     @include margin (null, null, 20px, null);
 
+    .entry-time-related{
+        @include margin (15px, null, null,  null);
+    }
     h1.entry-item-title{
-        font-size:18px;
+        font-size:16px;
+        a:hover{
+            color:$secondary-color;
+        }
     }
 }

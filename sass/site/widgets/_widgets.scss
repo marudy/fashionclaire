@@ -83,26 +83,31 @@ form.search-form{
   }
 }
 
+/* Sidebar Widgets
+=================================== */
+
+.sidebar{
+    .entry-widget-content{
+        @include margin (15px, null, 15px, null);
+    } 
+}
+
+
 /* Post Item  Widgets
 =================================== */
 .entry-widget{
     text-transform: uppercase;
     .entry-widget-content{
-        @include margin (10px, null, 15px, null);
+        @include margin (null, null, 5px, null);
         > *{
             display: inline-block;
+        }
+        a.entry-date-widget{
+            font-size:14px;
         }
     }
 
     h1.entry-title-widget{
         font-size:16px;
-    }
-
-    .entry-time-widget{
-        font-size:14px;
-    }
-
-    .entry-thumb-widget{
-        margin:0;
     }
 }

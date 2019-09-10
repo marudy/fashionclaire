@@ -23,7 +23,12 @@
         @include padding (null, null, 15px, null);
             p{
                 @include margin (null, null, 30px, null);
+                a{
+                    color:$secondary-color;
+                    text-decoration:underline;
+                }
         }
+        
     }
 
     .entry-meta{

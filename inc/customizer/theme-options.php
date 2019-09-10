@@ -3,7 +3,7 @@
  * Theme Options Panel.
  *
  * @package fashionclaire
- * @since fashionclaire 1.2.1
+ * @since fashionclaire 1.2.5
  * 
  */
 
@@ -67,7 +67,8 @@
   
        // Section for the Fonts
     $wp_customize->add_section('fashionclaire_section_fonts',array(
-        'title'     =>  esc_html__('Fonts', 'fashionclaire'),
+        'title'         =>  esc_html__('Fonts', 'fashionclaire'),
+        'description'   =>  esc_html__('Settings for the fonts.', 'fashionclaire'),
         'panel'     =>  'fashionclaire_theme_panel',
         'priority'  =>  2
     ));
@@ -119,6 +120,7 @@
     // Add Social Media Header Section
     $wp_customize->add_section( 'fashionclaire_top_header_section', array(
         'title'         =>  esc_html__('Top Header', 'fashionclaire'),
+        'description'   =>  esc_html__('Settings for the site header.', 'fashionclaire'),
         'panel'         =>  'fashionclaire_theme_panel',
         'priority'      =>  10,
     ));
@@ -130,7 +132,7 @@
     ));
   
     $wp_customize->add_control( 'show_top_header', array(
-        'label'         =>  esc_html__('Show social media in top header','fashionclaire'),
+        'label'         =>  esc_html__('Show social media in top header.','fashionclaire'),
         'description'   =>  esc_html__('Check to show the social media in the top of header.', 'fashionclaire'),
         'section'       =>  'fashionclaire_top_header_section',
         'type'          => 'checkbox',
@@ -139,9 +141,10 @@
   
     // Add Sidebar Section
     $wp_customize->add_section( 'fashionclaire_layout_section', array(
-        'title'     =>  esc_html__('Sidebar Options','fashionclaire'),
-        'panel'     =>  'fashionclaire_theme_panel',
-        'priority'  =>  40,
+        'title'         =>  esc_html__('Sidebar Options','fashionclaire'),
+        'description'   =>  esc_html__('Settings for sidebar.', 'fashionclaire'),
+        'panel'         =>  'fashionclaire_theme_panel',
+        'priority'      =>  40,
     ));
 
     //  Show and hide Sidebar in Single Post
@@ -151,7 +154,7 @@
     ));
   
    $wp_customize->add_control( 'show_single_sidebar', array(
-        'label'       =>  esc_html__('Show sidebar in Single Post', 'fashionclaire'),
+        'label'       =>  esc_html__('Show sidebar in single post.', 'fashionclaire'),
         'description' =>  esc_html__('Check to show the right sidebar in single post.', 'fashionclaire'),
         'section'     =>  'fashionclaire_layout_section',
         'type'        =>  'checkbox',
@@ -164,7 +167,7 @@
     ));
       
    $wp_customize->add_control( 'show_page_sidebar', array(
-        'label'       =>  esc_html__('Show sidebar in Page', 'fashionclaire'),
+        'label'       =>  esc_html__('Show sidebar in page.', 'fashionclaire'),
         'description' =>  esc_html__('Check to show the right sidebar in page.', 'fashionclaire'),
         'section'     =>  'fashionclaire_layout_section',
         'type'        =>  'checkbox',
@@ -172,9 +175,10 @@
 
    // Add archive/blog section
    $wp_customize->add_section( 'fashionclaire_blog_section', array(
-        'title'     =>  esc_html__('Archive/Blog', 'fashionclaire'),
-        'panel'     =>  'fashionclaire_theme_panel',
-        'priority'  =>  25,
+        'title'         =>  esc_html__('Archive/blog', 'fashionclaire'),
+        'description'   =>  esc_html__('Settings for archive/blog.', 'fashionclaire'),
+        'panel'         =>  'fashionclaire_theme_panel',
+        'priority'      =>  25,
     ));
 
     // Show and hide breadcrumb in archive/blog
@@ -184,7 +188,7 @@
     ));
     
     $wp_customize->add_control( 'show_archive_breadcrumb', array(
-        'label'         =>  esc_html__('Show breadcrumb','fashionclaire'),
+        'label'         =>  esc_html__('Show breadcrumb.','fashionclaire'),
         'description'   =>  esc_html__('Check to show breadcrumb in archive/blog page.', 'fashionclaire'),
         'section'       =>  'fashionclaire_blog_section',
         'type'          =>  'checkbox',  
@@ -197,7 +201,7 @@
     ));
   
     $wp_customize->add_control( 'show_content', array(
-        'label'     =>  esc_html__('Show the content', 'fashionclaire'),
+        'label'     =>  esc_html__('Show the content.', 'fashionclaire'),
         'description' =>  esc_html__('Check to show the content. The excerpt is the default option.', 'fashionclaire'),
         'section'   =>  'fashionclaire_blog_section',
         'type'      =>  'checkbox',
@@ -211,7 +215,7 @@
     ));
   
     $wp_customize->add_control( 'excerpt_length', array(
-        'label'         =>  esc_html__('Enter your excerpt length','fashionclaire'),
+        'label'         =>  esc_html__('Enter your excerpt length.','fashionclaire'),
         'description'   =>  esc_html__('The default length of excerpt is 55.', 'fashionclaire'),
         'section'       => 'fashionclaire_blog_section',
         'type'          => 'number',
@@ -254,7 +258,7 @@
     ));
   
     $wp_customize->add_control( 'show_continue_reading_text', array(
-        'label'         =>  esc_html__('Show the Continue Reading.', 'fashionclaire'),
+        'label'         =>  esc_html__('Show the continue reading.', 'fashionclaire'),
         'description'   =>  esc_html__('Check to show the continue reading in archive/blog page.', 'fashionclaire'),
         'section'       =>  'fashionclaire_blog_section',
         'type'          =>  'checkbox',
@@ -315,9 +319,10 @@
 
     // Add single post section
     $wp_customize->add_section('fashionclaire_single_post_section', array(
-        'title'     =>  esc_html__('Single Posts','fashionclaire'),
-        'panel'     =>  'fashionclaire_theme_panel',
-        'priority'  =>  35,
+        'title'         =>  esc_html__('Single Posts','fashionclaire'),
+        'description'   =>  esc_html__('Settings for the single posts.', 'fashionclaire'),
+        'panel'         =>  'fashionclaire_theme_panel',
+        'priority'      =>  35,
     ));
 
     // Show and hide breadcrumb in single psot
@@ -413,9 +418,10 @@
 
     // Add page section
    $wp_customize->add_section( 'fashionclaire_page_section', array(
-    'title'     =>  esc_html__('Page', 'fashionclaire'),
-    'panel'     =>  'fashionclaire_theme_panel',
-    'priority'  =>  37,
+    'title'         =>  esc_html__('Page', 'fashionclaire'),
+    'description'   =>  esc_html__('Settings for the page.', 'fashionclaire'),
+    'panel'         =>  'fashionclaire_theme_panel',
+    'priority'      =>  37,
     ));
 
     // Show and hide breadcrumb in page
@@ -439,16 +445,17 @@
   
     $wp_customize->add_control( 'show_page_featured_image', array(
         'label'       =>  esc_html__('Show featured image.', 'fashionclaire'),
-        'description' =>  esc_html__('Check to show the featured image in page.', 'fashionclaire'),
+        'description' =>  esc_html__('Check to show featured image in page.', 'fashionclaire'),
         'section'     =>  'fashionclaire_page_section',
         'type'        =>  'checkbox',
     ));
 
     // Add related section
     $wp_customize->add_section('fashionclaire_related_section',array(
-        'title'     =>  esc_html__('Related Posts', 'fashionclaire'),
-        'panel'     =>  'fashionclaire_theme_panel',
-        'priority'  =>  40,
+        'title'         =>  esc_html__('Related Posts', 'fashionclaire'),
+        'description'   =>  esc_html__('Settings for the related posts.', 'fashionclaire'),
+        'panel'         =>  'fashionclaire_theme_panel',
+        'priority'      =>  40,
     ));
   
     // Change related text 
@@ -493,9 +500,10 @@
   
     // Add extra section
     $wp_customize->add_section('fashionclaire_extra_options', array(
-        'title'     =>  esc_html__('Extra Options', 'fashionclaire'),
-        'panel'     =>  'fashionclaire_theme_panel',
-        'priority'  =>  65,
+        'title'         =>  esc_html__('Extra Options', 'fashionclaire'),
+        'description'   =>  esc_html__('Extra settings, like widgets.', 'fashionclaire'),
+        'panel'         =>  'fashionclaire_theme_panel',
+        'priority'      =>  65,
     ));
   
     // Show and hide date on widget section
@@ -513,9 +521,10 @@
   
     // Add footer section
     $wp_customize->add_section('fashionclaire_footer_section', array(
-        'title'       =>  esc_html__('Footer', 'fashionclaire'),
-        'panel'       =>  'fashionclaire_theme_panel',
-        'priority'    =>  90,
+        'title'         =>  esc_html__('Footer', 'fashionclaire'),
+        'description'   =>  esc_html__('Settings for the footer.', 'fashionclaire'),
+        'panel'         =>  'fashionclaire_theme_panel',
+        'priority'      =>  90,
     ));
     
     // Write copyright to footer
@@ -534,7 +543,7 @@
     // Add Responsive section
     $wp_customize->add_section('fashionclaire_responsive_section',array(
         'title'         =>  esc_html__('Responsive Options', 'fashionclaire'),
-        'description'   =>  esc_html__('These options apply only for mobile devices.', 'fashionclaire'),
+        'description'   =>  esc_html__('These options apply only for mobile devices (max-width:768px).', 'fashionclaire'),
         'panel'         =>  'fashionclaire_theme_panel',
     ));
   

@@ -3,7 +3,7 @@
  * Color Options Panel.
  * 
  * @package fashionclaire
- * @since fashionclaire 1.2.1
+ * @since fashionclaire 1.2.5
  */
 
     $default = fashionclaire_get_default_theme_options();
@@ -36,7 +36,7 @@
         'type'          =>  'color',
     )));
 
-     // Site-tagline Color
+     //Site-tagline Color
      $wp_customize->add_setting( 'tagline_color' , array(
         'default'           =>  $default['tagline_color'],
         'sanitize_callback' =>  'fashionclaire_sanitize_hex_color',  
@@ -56,7 +56,7 @@
         'panel'     => 'fashionclaire_colors_panel',
     ));
 
-    // Top Header Background Color
+    //Top Header Background Color
     $wp_customize->add_setting( 'top_header_background', array(
         'default'           =>  $default['top_header_background'],
         'sanitize_callback' =>  'fashionclaire_sanitize_hex_color',  
@@ -75,7 +75,7 @@
         'panel'     => 'fashionclaire_colors_panel',
     ));
     
-      // Breadcrumb Background Color
+      //Breadcrumb Background Color
       $wp_customize->add_setting( 'breadcrumb_background', array(
         'default'           =>  $default['breadcrumb_background'],
         'sanitize_callback' =>  'fashionclaire_sanitize_hex_color',  
@@ -94,7 +94,7 @@
         'panel'     => 'fashionclaire_colors_panel',
     ));
 
-    // Body Color
+    //Body Color
     $wp_customize->add_setting( 'body_color', array(
         'default'           =>  $default['body_color'],
         'sanitize_callback' =>  'fashionclaire_sanitize_hex_color',  
@@ -107,7 +107,7 @@
         'type'          =>  'color',
     )));
 
-     // Headings Color
+     //Headings Color
      $wp_customize->add_setting( 'headings_color', array(
         'default'           =>  $default['headings_color'],
         'sanitize_callback' =>  'fashionclaire_sanitize_hex_color',  
@@ -128,7 +128,7 @@
     
     $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'secondary_color', array(
         'label'         =>  esc_html__( 'Link color', 'fashionclaire' ),
-        'description'   =>  esc_html__( 'Change the color of breadcrumb, titles, categories, dropdown menu.', 'fashionclaire'),
+        'description'   =>  esc_html__( 'Change the color of breadcrumb, titles, links,  categories, dropdown menu.', 'fashionclaire'),
         'section'       =>  'fashionclaire_content_colors',
         'type'          =>  'color',
     )));

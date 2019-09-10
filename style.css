@@ -2307,6 +2307,9 @@ a:hover.page-numbers {
 .sidebar {
   margin-top: 40px;
 }
+.sidebar aside {
+  margin-bottom: 45px;
+}
 
 /* Widgets Section
 =================================== */

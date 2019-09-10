@@ -23,7 +23,22 @@ h3.widget-title{
             }
         }
     }
+
+    .entry-widget-content{
+        @include margin (15px, null, 15px, null);
+    } 
+
+    ul.social-networks{
+        li {
+            list-style-type:none;
+            float: left;
+            a{
+                @include margin (null, 10px, null, null);
+            }
+    }
 }
+}
+
 
 .site-footer{
     .widget{
@@ -31,17 +46,7 @@ h3.widget-title{
     }
 }
 
-  /* Social Media
-=================================== */
-ul.social-networks{
-    li {
-        list-style-type:none;
-        float: left;
-        @include margin (null, 15px, 15px, null);
-            
-    }
-    @include margin (null, null, null, -15px);
-}
+
 
 /* Search Option
 =================================== */
@@ -83,17 +88,8 @@ form.search-form{
   }
 }
 
-/* Sidebar Widgets
-=================================== */
 
-.sidebar{
-    .entry-widget-content{
-        @include margin (15px, null, 15px, null);
-    } 
-}
-
-
-/* Post Item  Widgets
+/* Post Item Widgets
 =================================== */
 .entry-widget{
     text-transform: uppercase;

@@ -188,6 +188,7 @@ function fashionclaire_custom_theme_styles(){
             a.tag-cloud-link:hover,
             .widget_categories a:hover,
             .entry-time-widget a:hover,
+            h1.entry-item-title a:hover,
             h1.entry-title-widget a:hover,
             .entry h1.entry-title a:hover,
             .entry-content a:hover,
@@ -206,6 +207,7 @@ function fashionclaire_custom_theme_styles(){
     if ($button_color != '#ffffff' ) :
     ?>
         <style>
+            #comments .post-comments.group ol#comment-list .reply a.comment-reply-link 
             .entry a.read-more,
             input[type="submit"],
             form.search-form input[type="submit"].search-submit,
@@ -219,6 +221,7 @@ function fashionclaire_custom_theme_styles(){
     if ($button_background_color != '#8e710b' ) :
     ?>
         <style>
+            #comments .post-comments.group ol#comment-list .reply a.comment-reply-link, 
             .entry a.read-more,
             input[type="submit"],
             form.search-form input[type="submit"].search-submit,
@@ -232,6 +235,7 @@ function fashionclaire_custom_theme_styles(){
     if ($button_border_color != '#8e710b' ) :
     ?>
         <style>
+            #comments .post-comments.group ol#comment-list .reply a.comment-reply-link, 
             .entry a.read-more,
             input[type="submit"],
             form.search-form input[type="submit"].search-submit,
@@ -247,6 +251,7 @@ function fashionclaire_custom_theme_styles(){
       if ($button_hover_color != '#8e710b' ) :
         ?>
             <style>
+                #comments .post-comments.group ol#comment-list .reply a.comment-reply-link:hover,
                 .entry a.read-more:hover,
                 input[type="submit"]:hover,
                 form.search-form input[type="submit"].search-submit:hover,
@@ -260,6 +265,7 @@ function fashionclaire_custom_theme_styles(){
         if ($button_hover_background_color != '#ffffff' ) :
         ?>
             <style>
+                #comments .post-comments.group ol#comment-list .reply a.comment-reply-link:hover,
                 .entry a.read-more:hover,
                 input[type="submit"]:hover,
                 form.search-form input[type="submit"].search-submit:hover,
@@ -273,6 +279,7 @@ function fashionclaire_custom_theme_styles(){
         if ($button_hover_border_color != '#8e710b' ) :
         ?>
             <style>
+                #comments .post-comments.group ol#comment-list .reply a.comment-reply-link:hover,
                 .entry a.read-more:hover,
                 input[type="submit"]:hover,
                 form.search-form input[type="submit"].search-submit:hover,

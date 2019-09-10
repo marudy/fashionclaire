@@ -12,13 +12,10 @@
        @include margin (20px, null, 20px, null);
      }
       .reply a.comment-reply-link {
-        background-color: $heading-color;
-        color: $white-color;
+        @include button-color();
         @include padding (8px, 8px, 8px, 8px);
-        border: 1px solid $heading-color;
         &:hover {
-          background-color:$white-color;
-          color: $heading-color;
+          @include button-hover();
         }
       }
       .comment-author {

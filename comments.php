@@ -8,7 +8,7 @@
 
  *
  * @package fashionclaire
- * @since fashionclaire 1.1.4
+ * @since fashionclaire 1.2.5
  */
 
 /*

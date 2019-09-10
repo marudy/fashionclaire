@@ -102,7 +102,7 @@
     
     $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'body_color', array(
         'label'         => esc_html__( 'Body color', 'fashionclaire' ),
-        'description'   => esc_html__( 'Change the color of body.', 'fashionclaire'),
+        'description'   => esc_html__( 'Change the main color of body.', 'fashionclaire'),
         'section'       =>  'fashionclaire_content_colors',
         'type'          =>  'color',
     )));
@@ -141,7 +141,7 @@
     
     $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'link_hover_color', array(
         'label'         =>  esc_html__( 'Link color on Hover', 'fashionclaire' ),
-        'description'   =>  esc_html__( 'Change the color on hover for breadcrumb, titles, widgets, categories, dropdown menu.', 'fashionclaire'),
+        'description'   =>  esc_html__( 'Change the color on hover of breadcrumb, titles, widgets, categories, dropdown menu.', 'fashionclaire'),
         'section'       =>  'fashionclaire_content_colors',
         'type'          =>  'color',
     )));
@@ -149,7 +149,7 @@
      // Buttons Color Section
      $wp_customize->add_section('fashionclaire_button_colors', array(
         'title'     => esc_html__( 'Buttons section', 'fashionclaire' ),
-        'description'   =>  esc_html__('These options apply only for Tag, Continue Reading, submit and post comment button.', 'fashionclaire'),
+        'description'   =>  esc_html__('These options apply only of tag, continue reading, submit and reply button.', 'fashionclaire'),
         'panel'     => 'fashionclaire_colors_panel',
     ));
 
@@ -234,7 +234,7 @@
     // Pagination Color Section
      $wp_customize->add_section('fashionclaire_paging_colors', array(
         'title'     => esc_html__( 'Pagination section', 'fashionclaire' ),
-        'description'   =>  esc_html__('These options apply only for Paging.', 'fashionclaire'),
+        'description'   =>  esc_html__('These options apply only for pagination.', 'fashionclaire'),
         'panel'     => 'fashionclaire_colors_panel',
     ));
 
@@ -245,8 +245,8 @@
     ));
     
     $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'paging_color', array(
-        'label'         => esc_html__( 'Paging color', 'fashionclaire' ),
-        'description'   => esc_html__( 'Change the color of paging.', 'fashionclaire'),
+        'label'         => esc_html__( 'Pagination color', 'fashionclaire' ),
+        'description'   => esc_html__( 'Change the pagination color.', 'fashionclaire'),
         'section'       =>  'fashionclaire_paging_colors',
         'type'          =>  'color',
     )));
@@ -258,8 +258,8 @@
     ));
     
     $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'paging_background_color', array(
-        'label'         => esc_html__( 'Paging background color', 'fashionclaire' ),
-        'description'   => esc_html__( 'Change the background color of paging.', 'fashionclaire'),
+        'label'         => esc_html__( 'Pagination background color', 'fashionclaire' ),
+        'description'   => esc_html__( 'Change the pagination background color.', 'fashionclaire'),
         'section'       =>  'fashionclaire_paging_colors',
         'type'          =>  'color',
     )));
@@ -271,8 +271,8 @@
     ));
     
     $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'paging_border_color', array(
-        'label'         => esc_html__( 'Paging border color', 'fashionclaire' ),
-        'description'   => esc_html__( 'Change the border color of paging.', 'fashionclaire'),
+        'label'         => esc_html__( 'Pagination border color', 'fashionclaire' ),
+        'description'   => esc_html__( 'Change the pagination border color.', 'fashionclaire'),
         'section'       =>  'fashionclaire_paging_colors',
         'type'          =>  'color',
     )));
@@ -284,8 +284,8 @@
     ));
     
     $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'paging_hover_color', array(
-        'label'         => esc_html__( 'Paging color on hover', 'fashionclaire' ),
-        'description'   => esc_html__( 'Change the color on hover in paging.', 'fashionclaire'),
+        'label'         => esc_html__( 'Pagination color on hover', 'fashionclaire' ),
+        'description'   => esc_html__( 'Change the pagination color on hover.', 'fashionclaire'),
         'section'       =>  'fashionclaire_paging_colors',
         'type'          =>  'color',
     )));
@@ -297,8 +297,8 @@
     ));
     
     $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'paging_hover_background_color', array(
-        'label'         => esc_html__( 'Paging Background color on hover', 'fashionclaire' ),
-        'description'   => esc_html__( 'Change the background color on hover in paging.', 'fashionclaire'),
+        'label'         => esc_html__( 'Pagination Background color on hover', 'fashionclaire' ),
+        'description'   => esc_html__( 'Change the pagination background color on hover.', 'fashionclaire'),
         'section'       =>  'fashionclaire_paging_colors',
         'type'          =>  'color',
     )));
@@ -310,8 +310,8 @@
     ));
     
     $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'paging_hover_border_color', array(
-        'label'         => esc_html__( 'Paging border color on hover', 'fashionclaire' ),
-        'description'   => esc_html__( 'Change the border color on hover in paging.', 'fashionclaire'),
+        'label'         => esc_html__( 'Pagination border color on hover', 'fashionclaire' ),
+        'description'   => esc_html__( 'Change the pagination border color on hover.', 'fashionclaire'),
         'section'       =>  'fashionclaire_paging_colors',
         'type'          =>  'color',
     )));
@@ -324,7 +324,7 @@
     
     $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'paging_current_color', array(
         'label'         => esc_html__( 'Paging current color', 'fashionclaire' ),
-        'description'   => esc_html__( 'Change the current color in paging.', 'fashionclaire'),
+        'description'   => esc_html__( 'Change the current pagination color.', 'fashionclaire'),
         'section'       =>  'fashionclaire_paging_colors',
         'type'          =>  'color',
     )));
@@ -337,7 +337,7 @@
     
     $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'paging_current_background_color', array(
         'label'         => esc_html__( 'Paging current background color', 'fashionclaire' ),
-        'description'   => esc_html__( 'Change the background color of current page.', 'fashionclaire'),
+        'description'   => esc_html__( 'Change the pagination background color in current page.', 'fashionclaire'),
         'section'       =>  'fashionclaire_paging_colors',
         'type'          =>  'color',
     )));
@@ -350,7 +350,7 @@
     
     $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'paging_current_border_color', array(
         'label'         => esc_html__( 'Paging current border color', 'fashionclaire' ),
-        'description'   => esc_html__( 'Change the border color of current page.', 'fashionclaire'),
+        'description'   => esc_html__( 'Change the pagination border color in current page.', 'fashionclaire'),
         'section'       =>  'fashionclaire_paging_colors',
         'type'          =>  'color',
     )));

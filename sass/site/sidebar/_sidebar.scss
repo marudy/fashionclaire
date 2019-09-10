@@ -2,4 +2,8 @@
 =================================== */
 .sidebar{
     @include margin (40px, null, null, null);
+
+    aside{
+        @include margin (null, null, 45px, null);
+    }
 }

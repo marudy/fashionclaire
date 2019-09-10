@@ -88,14 +88,14 @@ form.search-form{
 .entry-widget{
     text-transform: uppercase;
     .entry-widget-content{
-        @include margin (15px, null, null, null);
+        @include margin (10px, null, 15px, null);
         > *{
             display: inline-block;
         }
     }
 
     h1.entry-title-widget{
-        font-size:18px;
+        font-size:16px;
     }
 
     .entry-time-widget{

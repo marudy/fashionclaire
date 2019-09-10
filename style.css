@@ -1605,9 +1605,6 @@ button:hover {
   outline: none;
 }
 
-/* -----------------------------------------
-Components
------------------------------------------ */
 /* header
 =================================== */
 #masthead.site-header {
@@ -2073,6 +2070,7 @@ a:hover.page-numbers {
   border-style: solid;
   border-color: #8e710b;
   background-color: #8e710b;
+  padding-bottom: 15px;
 }
 
 /* Post Nagination
@@ -2395,26 +2393,29 @@ form.search-form input[type="submit"].search-submit:hover {
   outline: none;
 }
 
+/* Sidebar Widgets
+=================================== */
+.sidebar .entry-widget-content {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 /* Post Item  Widgets
 =================================== */
 .entry-widget {
   text-transform: uppercase;
 }
 .entry-widget .entry-widget-content {
-  margin-top: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 .entry-widget .entry-widget-content > * {
   display: inline-block;
 }
-.entry-widget h1.entry-title-widget {
-  font-size: 16px;
-}
-.entry-widget .entry-time-widget {
+.entry-widget .entry-widget-content a.entry-date-widget {
   font-size: 14px;
 }
-.entry-widget .entry-thumb-widget {
-  margin: 0;
+.entry-widget h1.entry-title-widget {
+  font-size: 16px;
 }
 
 /* Footer

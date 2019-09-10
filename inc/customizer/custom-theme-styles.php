@@ -154,7 +154,7 @@ function fashionclaire_custom_theme_styles(){
             .entry-time-widget a,
             h1.entry-title-widget a,
             #respond form#commentform p.logged-in-as a,
-            .entry-content a,
+            .entry .entry-content p a,
             .breadcrumb .breadcrumb-trail ul a,
             .entry .entry-meta, 
             .entry .entry-meta a{

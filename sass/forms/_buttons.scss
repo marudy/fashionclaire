@@ -25,50 +25,8 @@ a.wp-block-button__link,
     background-image:none;
     @include button-properties();
     @include transitions();
-    font-size:14px;
-    letter-spacing: 2px;
 
- }
-
- .btn {
-    &:active, &:focus {
-      border-color: #aaa #bbb #bbb;
-    }
-  }
-  
-
- .comment-reply-link {
-    &:active, &:focus {
-      border-color: #aaa #bbb #bbb;
-    }
-  }
-  
-  input {
-    &[type="button"] {
-      &:active, &:focus {
-        border-color: #aaa #bbb #bbb;
-      }
-    }
-    &[type="reset"] {
-      &:active, &:focus {
-        border-color: #aaa #bbb #bbb;
-      }
-    }
-    &[type="submit"] {
-      &:active, &:focus {
-        border-color: #aaa #bbb #bbb;
-      }
-    }
-  }
-
- textarea:focus,
- input:focus{
-     box-shadow: 0 0 6px rgba(0, 200, 222, 0.20);
-     background-color: rgba(250, 250, 250, 0.3);
- }
-
- input[type="submit"]{
-     @include button-color();
+    @include button-color();
      &:hover{
         @include button-hover();
     }

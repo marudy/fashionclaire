@@ -12,11 +12,16 @@
     background-color: $grey-100;
     @include padding (3px, null, 3px, null);
         ul.social-networks {
-            float:right;
+            display: flex;
+            flex-flow: row wrap;
+            /* This aligns items to the end line on main-axis */
+            justify-content: flex-end;
         li{
             list-style-type: none;
             float: left;
-            @include margin (null, 8px, null, 8px);
+            a{
+                @include margin (null, 15px, 10px, null);
+            }
         }
     }
 }

@@ -20,7 +20,7 @@
 
         $posted_on = sprintf(
             esc_html( '%s', 'post_date' ),
-            '<a href="' . esc_url( get_month_link(esc_html(get_the_time('Y')), esc_html(get_the_time('m')))) . '" rel="bookmark">' . $time_string. '</a>'
+            '<a class="entry-date-widget" href="' . esc_url( get_month_link(esc_html(get_the_time('Y')), esc_html(get_the_time('m')))) . '" rel="bookmark">' . $time_string. '</a>'
         );
         echo wp_kses_post( $posted_on );
         }

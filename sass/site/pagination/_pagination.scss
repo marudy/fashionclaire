@@ -26,4 +26,5 @@ a:hover.page-numbers {
 
 .paging-navigation .current {
   @include button-color();
+  @include padding (null, null, 15px, null);
 }

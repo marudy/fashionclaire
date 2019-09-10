@@ -92,6 +92,8 @@ p {
 =================================== */
 /* 21px @ 480px increasing to 28px @ 1920px */
 @media (min-width: 480px) {
+  h1.entry-title,
+  h1.entry-title a,
   h1 {
     font-size: calc(1.3125rem + ((1vw - 4.8px) * 0.4861));
     /* Where: * 0.4861 = 100 * font_Size_Difference / viewport_Width_Difference */
@@ -99,6 +101,8 @@ p {
 }
 /* Prevent font scaling beyond this breakpoint */
 @media (min-width: 1920px) {
+  h1.entry-title,
+  h1.entry-title a,
   h1 {
     font-size: 28px;
   }
@@ -107,6 +111,7 @@ p {
 =================================== */
 /* 19px @ 480px increasing to 21px @ 1920px */
 @media (min-width: 480px) {
+  h3.widget-title,
   h3 {
     font-size: calc(1.1875rem + ((1vw - 4.8px) * 0.1389));
     /* Where: * 0.1389 = 100 * font_Size_Difference / viewport_Width_Difference */
@@ -114,6 +119,7 @@ p {
 }
 /* Prevent font scaling beyond this breakpoint */
 @media (min-width: 1920px) {
+  h3.widget-title,
   h3 {
     font-size: 21px;
   }
@@ -1618,13 +1624,18 @@ button:hover {
   padding-bottom: 3px;
 }
 .top-header-content ul.social-networks {
-  float: right;
+  display: flex;
+  flex-flow: row wrap;
+  /* This aligns items to the end line on main-axis */
+  justify-content: flex-end;
 }
 .top-header-content ul.social-networks li {
   list-style-type: none;
   float: left;
-  margin-right: 8px;
-  margin-left: 8px;
+}
+.top-header-content ul.social-networks li a {
+  margin-right: 15px;
+  margin-bottom: 10px;
 }
 
 .site-branding .site-title {
@@ -2331,21 +2342,20 @@ h3.widget-title::before {
   list-style: none;
   text-transform: uppercase;
 }
+.sidebar .entry-widget-content {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.sidebar ul.social-networks li {
+  list-style-type: none;
+  float: left;
+}
+.sidebar ul.social-networks li a {
+  margin-right: 10px;
+}
 
 .site-footer .widget {
   margin-bottom: 40px;
-}
-
-  /* Social Media
-=================================== */
-ul.social-networks {
-  margin-left: -15px;
-}
-ul.social-networks li {
-  list-style-type: none;
-  float: left;
-  margin-right: 15px;
-  margin-bottom: 15px;
 }
 
 /* Search Option
@@ -2393,14 +2403,7 @@ form.search-form input[type="submit"].search-submit:hover {
   outline: none;
 }
 
-/* Sidebar Widgets
-=================================== */
-.sidebar .entry-widget-content {
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-/* Post Item  Widgets
+/* Post Item Widgets
 =================================== */
 .entry-widget {
   text-transform: uppercase;

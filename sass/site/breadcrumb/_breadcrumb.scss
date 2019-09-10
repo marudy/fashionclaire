@@ -1,7 +1,7 @@
 /* breadcrumb
 =================================== */
 .breadcrumb{
-  
+
     li.trail-item{
         list-style:none;
         a{
@@ -9,6 +9,7 @@
             color:$secondary-color;
             float:left;
             @include padding (null, 20px, null, 5px);
+   
             position: relative;
             &:after{
                 color:$body-color;
@@ -29,4 +30,5 @@ text-transform: uppercase;
     background-color:$grey-100;
     font-weight: $weight-700;
     @include padding (5px,5px,5px,5px);
+    @include margin (null,  null, 15px, null);
 }

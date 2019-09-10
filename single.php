@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <?php if((fashionclaire_get_option('show_single_sidebar'))==1) :  ?>
-                <div class="col-md-8 col-sm-6">
+                <div class="col-md-8 col-sm-12">
                     <?php get_template_part( 'template-parts/content', 'single' );?>
                 </div>
                 <?php get_sidebar();?>

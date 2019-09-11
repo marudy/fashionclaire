@@ -2176,17 +2176,11 @@ a:hover.page-numbers {
   padding-left: 15px;
   background-color: #fafafa;
 }
+.author-info .author-photo {
+  margin-top: 15px;
+}
 .author-info .author-content p {
   margin-bottom: 5px;
-}
-.author-info a.more-posts {
-  text-decoration: underline;
-}
-.author-info .author-social {
-  margin-top: 10px;
-}
-.author-info .author-social a {
-  margin-right: 8px;
 }
 
 /* Related

@@ -1,15 +1,12 @@
 /* breadcrumb
 =================================== */
 .breadcrumb{
-
     li.trail-item{
         list-style:none;
         a{
-           
             color:$secondary-color;
             float:left;
             @include padding (null, 20px, null, 5px);
-   
             position: relative;
             &:after{
                 color:$body-color;

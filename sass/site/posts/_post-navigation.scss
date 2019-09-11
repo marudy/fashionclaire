@@ -1,58 +1,55 @@
 /* Post Nagination
 =================================== */
-.page,
-.single-post{
-.post-navigation {
-    @include padding(null, null, 30px, null);
-    width:100%;
-    .nav-previous, .nav-next {
-        position: relative;
-      }
-    .nav-links a:hover{
-        text-decoration: underline;
-    }
 
-    .nav-previous {
-        width: 50%;
-    float: left;
-        text-align: left;
+.pagination-single {
+  display: flex;
+  flex-direction: column;
+  @include margin (45px, null, null, null);
+  @include padding (66px, 0, 64px, 0);
+  a {
+    align-items: baseline;
+    color: inherit;
+    display: flex;
+    text-decoration: none;
+    + a {
+      @include margin (15px, null, null, null);
     }
-    
-    .nav-next {
-        width: 50%;
-    float: right;
-    text-align: right;
+    .arrow {
+      @include margin (null, 15px, null, null);
     }
+    &:hover .title {
+      text-decoration: underline;
+      color:$secondary-color;
+    }
+  }
+}
 
-    .nav-previous a{
-      @include padding (null, null, null, 40px);
-    }
+@media ( min-width:$screen-sm-min ) {
 
-    .nav-next a{
-      @include padding (null, 40px, null, null);
-    }
+.pagination-single {
+  flex-direction: row;
+  justify-content: space-between;
+  @include margin (25px, null, null, null);
+}
 
-    .nav-previous a, .nav-next a {
-        position: relative;
-      }
-      .nav-previous a:before {
-        position: absolute;
-        display: inline-block;
-        content: "\f177";
-        left:5px;
-        font-size:24px;
-        top:-5px;
-        font-family: "icomoon";
-      }
-      .nav-next a:after {
-        position: absolute;
-        display: inline-block;
-        position: absolute;
-        content: "\f178";
-        font-size:24px;
-        right:5px;
-        top:-5px;
-        font-family: "icomoon";
-      }  
+.pagination-single.only-next {
+  justify-content: flex-end;
+}
+
+.pagination-single a + a {
+  @include margin (0, 0, 0, 34px);
+}
+
+.pagination-single a .arrow {
+  @include margin (null, 15px, null, null);
+}
+
+.pagination-single .next-post {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.pagination-single .next-post .arrow {
+  @include margin (null, null, null, 15px);
 }
 }

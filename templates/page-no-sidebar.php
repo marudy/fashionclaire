@@ -8,7 +8,7 @@
 get_header(); ?>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12 col-sm-12">
+			<div class="col-md-12">
 				<?php get_template_part( 'template-parts/content', 'page' ); ?>
 			</div>
 		</div>

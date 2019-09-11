@@ -48,7 +48,8 @@
     ));
   
     $wp_customize->add_control( 'logo_padding_top', array(
-        'label'         =>  esc_html__( 'Logo top padding', 'fashionclaire' ), 
+        'label'         =>  esc_html__( 'Logo top padding.', 'fashionclaire' ), 
+        'description'   =>  esc_html__('Add some padding in the top of logo.', 'fashionclaire'),
         'section'       =>  'title_tagline',
         'type'          =>  'number',
     ));
@@ -60,7 +61,8 @@
     ));
   
     $wp_customize->add_control( 'logo_padding_bottom', array(
-        'label'     =>  esc_html__('Logo bottom padding', 'fashionclaire'),
+        'label'     =>  esc_html__('Logo bottom padding.', 'fashionclaire'),
+        'description'   =>  esc_html__('Add some padding in the bottom of logo.', 'fashionclaire'),
         'section'   =>   'title_tagline',
         'type'      =>  'number',
     ));
@@ -81,7 +83,7 @@
   
     $wp_customize->add_control('heading_font', array(
         'label'         => __('Select the font family for headings.', 'fashionclaire'),
-        'description'   => __('Apply the font for the heading H1, H2, H3, H4, H5, H6. The default font family is PT Serif.', 'fashionclaire'),
+        'description'   => __('Apply the font for the headings h1, h2, h3, h4, h5, h6. The default font family is PT Serif.', 'fashionclaire'),
         'section'       => 'fashionclaire_section_fonts',
         'type'          => 'select',
         'choices'	 => fashionclaire_get_font_choices(),
@@ -431,7 +433,7 @@
     ));
     
     $wp_customize->add_control( 'show_page_breadcrumb', array(
-        'label'         =>  esc_html__('Show breadcrumb', 'fashionclaire'),
+        'label'         =>  esc_html__('Show breadcrumb.', 'fashionclaire'),
         'description'   =>  esc_html__('Check to show breadcrumb in page.', 'fashionclaire'),
         'section'       =>  'fashionclaire_page_section',
         'type'          =>  'checkbox',  

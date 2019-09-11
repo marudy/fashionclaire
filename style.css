@@ -2288,6 +2288,12 @@ a:hover.page-numbers {
   margin-bottom: 45px;
 }
 
+/* Search results
+=================================== */
+.no-results {
+  margin-top: 40px;
+}
+
 /* Widgets Section
 =================================== */
 h3.widget-title {

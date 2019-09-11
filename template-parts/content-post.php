@@ -23,7 +23,7 @@
             <?php endif;?>  
 
             <?php if((fashionclaire_get_option('show_archive_comments'))==1) :  ?>
-            <span class="icon-comment" aria-hidden="true"></span><a href="<?php echo esc_url( get_comments_link() ); ?>" class="no-entry-comments"><?php comments_number(); ?> </a>
+                <span class="icon-comment" aria-hidden="true"></span><a href="<?php echo esc_url( get_comments_link() ); ?>" class="no-entry-comments"><?php comments_number(); ?> </a>
             <?php endif;?>   
         </div>
     <?php endif;?>

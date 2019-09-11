@@ -51,7 +51,35 @@
             <?php endif; ?>
 
             <?php if((fashionclaire_get_option('show_single_pagination'))==1) :  ?>
-                <?php the_post_navigation(); ?>
+                <?php
+                // Single pagination
+                $next_post = get_next_post();
+                $prev_post = get_previous_post();
+                if ( $next_post || $prev_post ) :
+                    $pagination_classes = '';
+                        if ( ! $next_post ) {
+                            $pagination_classes = ' only-one only-prev';
+                        } elseif ( ! $prev_post ) {
+                            $pagination_classes = ' only-one only-next';
+                        }
+                        ?>
+                    <nav class="pagination-single section-inner<?php echo esc_attr( $pagination_classes ); ?>">
+                        <?php if ( $prev_post ) : ?>
+                            <a class="previous-post" href="<?php echo esc_url( get_permalink( $prev_post->ID ) ); ?>">
+                                <div class="arrow">&larr;</div>
+                                <div class="title"><div class="title-inner"><?php echo wp_kses_post( get_the_title( $prev_post->ID ) ); ?></div></div>
+                            </a>
+                        <?php endif; ?>
+                        <?php if ( $next_post ) : ?>
+                            <a class="next-post" href="<?php echo esc_url( get_permalink( $next_post->ID ) ); ?>">
+                                <div class="arrow">&rarr;</div>
+                                <div class="title"><div class="title-inner"><?php echo wp_kses_post( get_the_title( $next_post->ID ) ); ?></div></div>
+                            </a>
+                            <?php endif; ?>
+                    </nav><!-- .single-pagination -->
+                    <?php
+                endif;
+                ?>
             <?php endif; ?>
 
             <?php if((fashionclaire_get_option('show_related_content'))==1) :  ?>

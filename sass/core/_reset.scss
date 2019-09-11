@@ -36,12 +36,15 @@ html {
     display: none;
   }
 
-
+  .pagination-single a,
   a {
-    &:active, &:hover {
-      outline: 0;
-    }
+    @include transitions();
+    text-decoration:none;
 
+    &:hover{
+      outline: thin dotted;
+    }
+  
     &:active{
       color: midnightblue;
     }

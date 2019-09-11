@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2019-09-09 19:09+0300\n"
-"PO-Revision-Date: 2019-09-09 19:09+0300\n"
+"POT-Creation-Date: 2019-09-11 14:22+0300\n"
+"PO-Revision-Date: 2019-09-11 14:22+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.2.3\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-KeywordsList: __;_e;_n;_x;_ex;_nx;esc_attr__;esc_attr_e;esc_attr_x;"
@@ -26,7 +26,7 @@ msgid ""
 "searching?"
 msgstr ""
 
-#: 404.php:17
+#: 404.php:16
 msgid "Maybe you are interested in"
 msgstr ""
 
@@ -239,7 +239,7 @@ msgid "Body color"
 msgstr ""
 
 #: inc/customizer/color-options.php:105
-msgid "Change the color of body."
+msgid "Change the main color of body."
 msgstr ""
 
 #: inc/customizer/color-options.php:117
@@ -255,7 +255,8 @@ msgid "Link color"
 msgstr ""
 
 #: inc/customizer/color-options.php:131
-msgid "Change the color of breadcrumb, titles, categories, dropdown menu."
+msgid ""
+"Change the color of breadcrumb, titles, links,  categories, dropdown menu."
 msgstr ""
 
 #: inc/customizer/color-options.php:143
@@ -264,7 +265,7 @@ msgstr ""
 
 #: inc/customizer/color-options.php:144
 msgid ""
-"Change the color on hover for breadcrumb, titles, widgets, categories, "
+"Change the color on hover of breadcrumb, titles, widgets, categories, "
 "dropdown menu."
 msgstr ""
 
@@ -274,8 +275,7 @@ msgstr ""
 
 #: inc/customizer/color-options.php:152
 msgid ""
-"These options apply only for Tag, Continue Reading, submit and post comment "
-"button."
+"These options apply only of tag, continue reading, submit and reply button."
 msgstr ""
 
 #: inc/customizer/color-options.php:163
@@ -331,55 +331,55 @@ msgid "Pagination section"
 msgstr ""
 
 #: inc/customizer/color-options.php:237
-msgid "These options apply only for Paging."
+msgid "These options apply only for pagination."
 msgstr ""
 
 #: inc/customizer/color-options.php:248
-msgid "Paging color"
+msgid "Pagination color"
 msgstr ""
 
 #: inc/customizer/color-options.php:249
-msgid "Change the color of paging."
+msgid "Change the pagination color."
 msgstr ""
 
 #: inc/customizer/color-options.php:261
-msgid "Paging background color"
+msgid "Pagination background color"
 msgstr ""
 
 #: inc/customizer/color-options.php:262
-msgid "Change the background color of paging."
+msgid "Change the pagination background color."
 msgstr ""
 
 #: inc/customizer/color-options.php:274
-msgid "Paging border color"
+msgid "Pagination border color"
 msgstr ""
 
 #: inc/customizer/color-options.php:275
-msgid "Change the border color of paging."
+msgid "Change the pagination border color."
 msgstr ""
 
 #: inc/customizer/color-options.php:287
-msgid "Paging color on hover"
+msgid "Pagination color on hover"
 msgstr ""
 
 #: inc/customizer/color-options.php:288
-msgid "Change the color on hover in paging."
+msgid "Change the pagination color on hover."
 msgstr ""
 
 #: inc/customizer/color-options.php:300
-msgid "Paging Background color on hover"
+msgid "Pagination Background color on hover"
 msgstr ""
 
 #: inc/customizer/color-options.php:301
-msgid "Change the background color on hover in paging."
+msgid "Change the pagination background color on hover."
 msgstr ""
 
 #: inc/customizer/color-options.php:313
-msgid "Paging border color on hover"
+msgid "Pagination border color on hover"
 msgstr ""
 
 #: inc/customizer/color-options.php:314
-msgid "Change the border color on hover in paging."
+msgid "Change the pagination border color on hover."
 msgstr ""
 
 #: inc/customizer/color-options.php:326
@@ -387,7 +387,7 @@ msgid "Paging current color"
 msgstr ""
 
 #: inc/customizer/color-options.php:327
-msgid "Change the current color in paging."
+msgid "Change the current pagination color."
 msgstr ""
 
 #: inc/customizer/color-options.php:339
@@ -395,7 +395,7 @@ msgid "Paging current background color"
 msgstr ""
 
 #: inc/customizer/color-options.php:340
-msgid "Change the background color of current page."
+msgid "Change the pagination background color in current page."
 msgstr ""
 
 #: inc/customizer/color-options.php:352
@@ -403,7 +403,7 @@ msgid "Paging current border color"
 msgstr ""
 
 #: inc/customizer/color-options.php:353
-msgid "Change the border color of current page."
+msgid "Change the pagination border color in current page."
 msgstr ""
 
 #: inc/customizer/color-options.php:360
@@ -439,7 +439,7 @@ msgstr ""
 msgid "Continue Reading"
 msgstr ""
 
-#: inc/customizer/default.php:56 inc/customizer/theme-options.php:449
+#: inc/customizer/default.php:56 inc/customizer/theme-options.php:457
 #: template-parts/content-related.php:4 template-parts/content-related.php:5
 msgid "Related Posts"
 msgstr ""
@@ -457,295 +457,336 @@ msgid "Themes Options"
 msgstr ""
 
 #: inc/customizer/theme-options.php:25
-msgid "Checked to show the title below the logo"
+msgid "Check to show the title below the logo."
 msgstr ""
 
 #: inc/customizer/theme-options.php:38
-msgid "Checked to show the tagline below the logo"
+msgid "Check to show the tagline below the logo."
 msgstr ""
 
 #: inc/customizer/theme-options.php:51
-msgid "Logo top padding"
+msgid "Logo top padding."
 msgstr ""
 
-#: inc/customizer/theme-options.php:63
-msgid "Logo bottom padding"
+#: inc/customizer/theme-options.php:52
+msgid "Add some padding in the top of logo."
 msgstr ""
 
-#: inc/customizer/theme-options.php:70
+#: inc/customizer/theme-options.php:64
+msgid "Logo bottom padding."
+msgstr ""
+
+#: inc/customizer/theme-options.php:65
+msgid "Add some padding in the bottom of logo."
+msgstr ""
+
+#: inc/customizer/theme-options.php:72
 msgid "Fonts"
 msgstr ""
 
-#: inc/customizer/theme-options.php:82
-msgid "Select the font family for Headings."
+#: inc/customizer/theme-options.php:73
+msgid "Settings for the fonts."
 msgstr ""
 
-#: inc/customizer/theme-options.php:83
+#: inc/customizer/theme-options.php:85
+msgid "Select the font family for headings."
+msgstr ""
+
+#: inc/customizer/theme-options.php:86
 msgid ""
-"Apply the font for the heading H1, H2, H3, H4, H5, H6. The default font "
+"Apply the font for the headings h1, h2, h3, h4, h5, h6. The default font "
 "family is PT Serif."
 msgstr ""
 
-#: inc/customizer/theme-options.php:96
-msgid "Select the font family for Body."
+#: inc/customizer/theme-options.php:99
+msgid "Select the font family for body."
 msgstr ""
 
-#: inc/customizer/theme-options.php:97
+#: inc/customizer/theme-options.php:100
 msgid "Apply the font for body. The default font family is PT Serif."
 msgstr ""
 
-#: inc/customizer/theme-options.php:111
-msgid "Select the font family for Branding."
+#: inc/customizer/theme-options.php:114
+msgid "Select the font family for branding."
 msgstr ""
 
-#: inc/customizer/theme-options.php:112
+#: inc/customizer/theme-options.php:115
 msgid ""
-"Apply the font for Site title and tagline. The default font family is PT "
+"Apply the font for site title and tagline. The default font family is PT "
 "Serif."
 msgstr ""
 
-#: inc/customizer/theme-options.php:121 inc/widgets.php:12
+#: inc/customizer/theme-options.php:124 inc/widgets.php:12
 msgid "Top Header"
 msgstr ""
 
-#: inc/customizer/theme-options.php:133
-msgid "Show social media in top header"
+#: inc/customizer/theme-options.php:125
+msgid "Settings for the site header."
 msgstr ""
 
-#: inc/customizer/theme-options.php:134
-msgid "Checked to show the social media in the top of header"
+#: inc/customizer/theme-options.php:137
+msgid "Show social media in top header."
 msgstr ""
 
-#: inc/customizer/theme-options.php:142
+#: inc/customizer/theme-options.php:138
+msgid "Check to show the social media in the top of header."
+msgstr ""
+
+#: inc/customizer/theme-options.php:146
 msgid "Sidebar Options"
 msgstr ""
 
-#: inc/customizer/theme-options.php:154
-msgid "Show sidebar in Single Post"
+#: inc/customizer/theme-options.php:147
+msgid "Settings for sidebar."
 msgstr ""
 
-#: inc/customizer/theme-options.php:155
-msgid "Checked to show the right sidebar in single post"
+#: inc/customizer/theme-options.php:159
+msgid "Show sidebar in single post."
 msgstr ""
 
-#: inc/customizer/theme-options.php:167
-msgid "Show sidebar in Page"
+#: inc/customizer/theme-options.php:160
+msgid "Check to show the right sidebar in single post."
 msgstr ""
 
-#: inc/customizer/theme-options.php:168
-msgid "Checked to show the right sidebar in page"
+#: inc/customizer/theme-options.php:172
+msgid "Show sidebar in page."
 msgstr ""
 
-#: inc/customizer/theme-options.php:175
-msgid "Archive/Blog"
+#: inc/customizer/theme-options.php:173
+msgid "Check to show the right sidebar in page."
 msgstr ""
 
-#: inc/customizer/theme-options.php:187 inc/customizer/theme-options.php:428
-msgid "Show breadcrumb"
+#: inc/customizer/theme-options.php:180
+msgid "Archive/blog"
 msgstr ""
 
-#: inc/customizer/theme-options.php:188
-msgid "Checked to show breadcrumb in archive/blog page."
+#: inc/customizer/theme-options.php:181
+msgid "Settings for archive/blog."
 msgstr ""
 
-#: inc/customizer/theme-options.php:200
-msgid "Show the content"
-msgstr ""
-
-#: inc/customizer/theme-options.php:201
-msgid "Checked to show the content. The excerpt is the default option."
-msgstr ""
-
-#: inc/customizer/theme-options.php:214
-msgid "Enter your excerpt length"
-msgstr ""
-
-#: inc/customizer/theme-options.php:215
-msgid "The default length of excerpt is 55."
-msgstr ""
-
-#: inc/customizer/theme-options.php:232
-msgid "Write your text for the excerpt section."
-msgstr ""
-
-#: inc/customizer/theme-options.php:244
-msgid "Button"
-msgstr ""
-
-#: inc/customizer/theme-options.php:245
-msgid "Write the text for Continue Reading in archive/blog page."
-msgstr ""
-
-#: inc/customizer/theme-options.php:257
-msgid "Show the Continue Reading."
-msgstr ""
-
-#: inc/customizer/theme-options.php:258
-msgid "Checked to show the Continue Reading in archive/blog page."
-msgstr ""
-
-#: inc/customizer/theme-options.php:270 inc/customizer/theme-options.php:343
-msgid "Show the categories."
-msgstr ""
-
-#: inc/customizer/theme-options.php:271
-msgid "Checked to show categories in archive/blog page."
-msgstr ""
-
-#: inc/customizer/theme-options.php:283 inc/customizer/theme-options.php:356
-msgid "Show the published date."
-msgstr ""
-
-#: inc/customizer/theme-options.php:284
-msgid "Checked to show the published date in archive/blog page."
-msgstr ""
-
-#: inc/customizer/theme-options.php:296 inc/customizer/theme-options.php:369
-msgid "Show the count of comments."
-msgstr ""
-
-#: inc/customizer/theme-options.php:297
-msgid "Checked to show the count of comments in archive/blog page."
-msgstr ""
-
-#: inc/customizer/theme-options.php:309
-msgid "Show the featured image."
-msgstr ""
-
-#: inc/customizer/theme-options.php:310
-msgid "Checked to show the featured image in archive/blog page."
-msgstr ""
-
-#: inc/customizer/theme-options.php:318
-msgid "Single Posts"
-msgstr ""
-
-#: inc/customizer/theme-options.php:330
+#: inc/customizer/theme-options.php:193 inc/customizer/theme-options.php:337
+#: inc/customizer/theme-options.php:436
 msgid "Show breadcrumb."
 msgstr ""
 
-#: inc/customizer/theme-options.php:331
-msgid "Checked to show breadcrumb in single post."
+#: inc/customizer/theme-options.php:194
+msgid "Check to show breadcrumb in archive/blog page."
 msgstr ""
 
-#: inc/customizer/theme-options.php:344
-msgid "Checked to show categories in single post."
+#: inc/customizer/theme-options.php:206
+msgid "Show the content."
 msgstr ""
 
-#: inc/customizer/theme-options.php:357
-msgid "Checked to show the published date in single post."
+#: inc/customizer/theme-options.php:207
+msgid "Check to show the content. The excerpt is the default option."
 msgstr ""
 
-#: inc/customizer/theme-options.php:370
-msgid "Checked to show the count of comments in single post."
+#: inc/customizer/theme-options.php:220
+msgid "Enter your excerpt length."
 msgstr ""
 
-#: inc/customizer/theme-options.php:382
+#: inc/customizer/theme-options.php:221
+msgid "The default length of excerpt is 55."
+msgstr ""
+
+#: inc/customizer/theme-options.php:238
+msgid "Write your text for the excerpt section."
+msgstr ""
+
+#: inc/customizer/theme-options.php:250
+msgid "Button"
+msgstr ""
+
+#: inc/customizer/theme-options.php:251
+msgid "Write the text for continue reading in archive/blog page."
+msgstr ""
+
+#: inc/customizer/theme-options.php:263
+msgid "Show the continue reading."
+msgstr ""
+
+#: inc/customizer/theme-options.php:264
+msgid "Check to show the continue reading in archive/blog page."
+msgstr ""
+
+#: inc/customizer/theme-options.php:276 inc/customizer/theme-options.php:350
+msgid "Show the categories."
+msgstr ""
+
+#: inc/customizer/theme-options.php:277
+msgid "Check to show the categories in archive/blog page."
+msgstr ""
+
+#: inc/customizer/theme-options.php:289 inc/customizer/theme-options.php:363
+msgid "Show the published date."
+msgstr ""
+
+#: inc/customizer/theme-options.php:290
+msgid "Check to show the published date in archive/blog page."
+msgstr ""
+
+#: inc/customizer/theme-options.php:302 inc/customizer/theme-options.php:376
+msgid "Show the count of comments."
+msgstr ""
+
+#: inc/customizer/theme-options.php:303
+msgid "Check to show the count of comments in archive/blog page."
+msgstr ""
+
+#: inc/customizer/theme-options.php:315
+msgid "Show the featured image."
+msgstr ""
+
+#: inc/customizer/theme-options.php:316
+msgid "Check to show the featured image in archive/blog page."
+msgstr ""
+
+#: inc/customizer/theme-options.php:324
+msgid "Single Posts"
+msgstr ""
+
+#: inc/customizer/theme-options.php:325
+msgid "Settings for the single posts."
+msgstr ""
+
+#: inc/customizer/theme-options.php:338
+msgid "Check to show the breadcrumb in single post."
+msgstr ""
+
+#: inc/customizer/theme-options.php:351
+msgid "Check to show the categories in single post."
+msgstr ""
+
+#: inc/customizer/theme-options.php:364
+msgid "Check to show the published date in single post."
+msgstr ""
+
+#: inc/customizer/theme-options.php:377
+msgid "Check to show the count of comments in single post."
+msgstr ""
+
+#: inc/customizer/theme-options.php:389
 msgid "Show the tags."
 msgstr ""
 
-#: inc/customizer/theme-options.php:383
-msgid "Checked to show tags in single post."
+#: inc/customizer/theme-options.php:390
+msgid "Check to show tags in single post."
 msgstr ""
 
-#: inc/customizer/theme-options.php:395
+#: inc/customizer/theme-options.php:402
 msgid "Show the author biography."
 msgstr ""
 
-#: inc/customizer/theme-options.php:396
-msgid "Checked to show the author biography in single post."
+#: inc/customizer/theme-options.php:403
+msgid "Check to show the author biography in single post."
 msgstr ""
 
-#: inc/customizer/theme-options.php:408
+#: inc/customizer/theme-options.php:415
 msgid "Show the pagination."
 msgstr ""
 
-#: inc/customizer/theme-options.php:409
-msgid "Checked to show the pagination in single post."
+#: inc/customizer/theme-options.php:416
+msgid "Check to show the pagination in single post."
 msgstr ""
 
-#: inc/customizer/theme-options.php:416
+#: inc/customizer/theme-options.php:423
 msgid "Page"
 msgstr ""
 
-#: inc/customizer/theme-options.php:429
-msgid "Checked to show breadcrumb in page."
+#: inc/customizer/theme-options.php:424
+msgid "Settings for the page."
 msgstr ""
 
-#: inc/customizer/theme-options.php:441
+#: inc/customizer/theme-options.php:437
+msgid "Check to show breadcrumb in page."
+msgstr ""
+
+#: inc/customizer/theme-options.php:449
 msgid "Show featured image."
 msgstr ""
 
-#: inc/customizer/theme-options.php:442
-msgid "Checked to show the featured image in page."
+#: inc/customizer/theme-options.php:450
+msgid "Check to show featured image in page."
 msgstr ""
 
-#: inc/customizer/theme-options.php:462
+#: inc/customizer/theme-options.php:458
+msgid "Settings for the related posts."
+msgstr ""
+
+#: inc/customizer/theme-options.php:471
 msgid "Related posts section title."
 msgstr ""
 
-#: inc/customizer/theme-options.php:463
-msgid "Change the related posts section title."
+#: inc/customizer/theme-options.php:472
+msgid "Change the title of related posts section."
 msgstr ""
 
-#: inc/customizer/theme-options.php:475
+#: inc/customizer/theme-options.php:484
 msgid "Show the date."
 msgstr ""
 
-#: inc/customizer/theme-options.php:476
-msgid "Checked to show the date of related post."
+#: inc/customizer/theme-options.php:485
+msgid "Check to show the date of related post."
 msgstr ""
 
-#: inc/customizer/theme-options.php:488
+#: inc/customizer/theme-options.php:497
 msgid "Show the related posts section."
 msgstr ""
 
-#: inc/customizer/theme-options.php:489
-msgid "Checked to show the section of related posts."
+#: inc/customizer/theme-options.php:498
+msgid "Check to show the section of related posts."
 msgstr ""
 
-#: inc/customizer/theme-options.php:496
+#: inc/customizer/theme-options.php:505
 msgid "Extra Options"
 msgstr ""
 
-#: inc/customizer/theme-options.php:508
+#: inc/customizer/theme-options.php:506
+msgid "Extra settings, like widgets."
+msgstr ""
+
+#: inc/customizer/theme-options.php:518
 msgid "Show the date of posts widgets."
 msgstr ""
 
-#: inc/customizer/theme-options.php:509
-msgid "Checked to show the date of posts in widget section."
+#: inc/customizer/theme-options.php:519
+msgid "Check to show the date of posts in widget section."
 msgstr ""
 
-#: inc/customizer/theme-options.php:516
+#: inc/customizer/theme-options.php:526
 msgid "Footer"
 msgstr ""
 
-#: inc/customizer/theme-options.php:528
+#: inc/customizer/theme-options.php:527
+msgid "Settings for the footer."
+msgstr ""
+
+#: inc/customizer/theme-options.php:539
 msgid "Footer Copyright."
 msgstr ""
 
-#: inc/customizer/theme-options.php:529
+#: inc/customizer/theme-options.php:540
 msgid "Write your text for copyright."
 msgstr ""
 
-#: inc/customizer/theme-options.php:536
+#: inc/customizer/theme-options.php:547
 msgid "Responsive Options"
 msgstr ""
 
-#: inc/customizer/theme-options.php:537
-msgid "These options apply only for Mobile devices."
-msgstr ""
-
 #: inc/customizer/theme-options.php:548
-msgid "Checked to hide the top header section."
+msgid "These options apply only for mobile devices (max-width:768px)."
 msgstr ""
 
-#: inc/customizer/theme-options.php:560
-msgid "Checked to hide the related posts section."
+#: inc/customizer/theme-options.php:559
+msgid "Check to hide the top header section."
 msgstr ""
 
-#: inc/customizer/theme-options.php:572
-msgid "Checked to hide the sidebar."
+#: inc/customizer/theme-options.php:571
+msgid "Check to hide the related posts section."
+msgstr ""
+
+#: inc/customizer/theme-options.php:583
+msgid "Check to hide the sidebar."
 msgstr ""
 
 #: inc/template-tags.php:35

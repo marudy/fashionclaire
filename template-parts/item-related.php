@@ -2,7 +2,7 @@
     <?php if (has_post_thumbnail() ):?>
         <figure class="entry-item-thumb">
             <a href="<?php the_permalink(); ?>"tabindex="-1" aria-hidden="true">
-                <?php the_post_thumbnail( 'fashionclaire-xsmall', [ 'alt' => get_the_title() ] ); ?>
+                <?php the_post_thumbnail( 'fashionclaire-xsmall', [ 'alt' => esc_html ( get_the_title() ) ] ); ?>
             </a>
         </figure>
     <?php endif;?>

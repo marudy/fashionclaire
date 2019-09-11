@@ -47,23 +47,6 @@ address{
     @include margin (0, 0, 15px, 0);
 }
 
-/* link
-=================================== */
-a{
-   @include transitions();
-    outline: none;
-    color: $body-color;
-    text-decoration:none;
-
-    &:hover,
-    &:focus{
-        outline: thin dotted;
-    }
-
-    &:active{
-        outline:none;
-    }
-}
 
 
 /* List

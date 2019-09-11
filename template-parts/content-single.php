@@ -52,7 +52,6 @@
 
             <?php if((fashionclaire_get_option('show_single_pagination'))==1) :  ?>
                 <?php
-                // Single pagination
                 $next_post = get_next_post();
                 $prev_post = get_previous_post();
                 if ( $next_post || $prev_post ) :
@@ -76,7 +75,7 @@
                                 <div class="title"><div class="title-inner"><?php echo wp_kses_post( get_the_title( $next_post->ID ) ); ?></div></div>
                             </a>
                             <?php endif; ?>
-                    </nav><!-- .single-pagination -->
+                    </nav>
                     <?php
                 endif;
                 ?>

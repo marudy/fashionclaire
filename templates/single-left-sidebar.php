@@ -1,6 +1,6 @@
 <?php
 /**
-* Template Name: Post - Left Sidebar
+* Template Name: Left Sidebar
 * Template Post Type: post
 *
 * @package fashionclaire

@@ -72,6 +72,9 @@
     }
 }
 
-h2.section-title{
-    @include margin (20px, null, null, null);
+.archive
+{
+    h2{
+        @include margin (20px, null, null, null);
+    }
 }

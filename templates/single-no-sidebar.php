@@ -1,6 +1,6 @@
 <?php
 /**
-* Template Name: Post - No Sidebar
+* Template Name: Without Sidebar
 * Template Post Type: post
 *
 * @package fashionclaire

@@ -5,7 +5,7 @@ Tags: one-column, right-sidebar, grid-layout, custom-background, custom-colors, 
 Requires at least: 4.7
 Tested up to: WordPress 5.2.3
 Requires PHP: 5.6
-Stable tag: 1.1.5
+Stable tag: 1.2.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -108,9 +108,10 @@ If you need any help, or assistance I'd be happy to help. My email address: hell
  * Fix some coding issues. 
 
 = 1.2.5 =
- * Replace and add social icons. 
+ * Add social icons. 
  * Improve the accessibility. 
- * Add page templates
+ * Add page templates.
+ * Fixed some coding issues.
 
 == Upgrade Notice ==
 

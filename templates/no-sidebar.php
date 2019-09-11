@@ -1,6 +1,6 @@
 <?php
 /**
-* Template Name: Page - No Sidebar
+* Template Name:  Without Sidebar
 *
 * @package fashionclaire
 * @since fashionclaire 1.2.5
